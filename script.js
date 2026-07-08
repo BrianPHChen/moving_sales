@@ -38,6 +38,24 @@
     return item.objects.every((o) => o.sold);
   }
 
+  let pendingDescToggles = [];
+
+  function setupDescToggles() {
+    pendingDescToggles.forEach((desc) => {
+      if (desc.scrollHeight <= desc.clientHeight + 1) return;
+      const toggle = document.createElement("button");
+      toggle.type = "button";
+      toggle.className = "desc-toggle";
+      toggle.textContent = "Show more";
+      toggle.addEventListener("click", () => {
+        const expanded = desc.classList.toggle("expanded");
+        toggle.textContent = expanded ? "Show less" : "Show more";
+      });
+      desc.insertAdjacentElement("afterend", toggle);
+    });
+    pendingDescToggles = [];
+  }
+
   function render() {
     const query = searchInput.value.trim().toLowerCase();
     const hideSold = hideSoldCheckbox.checked;
@@ -68,6 +86,7 @@
       gallery.appendChild(empty);
     } else {
       visible.forEach((item) => gallery.appendChild(renderCard(item)));
+      setupDescToggles();
     }
 
     const totalObjects = items.reduce((sum, i) => sum + i.objects.length, 0);
@@ -172,6 +191,7 @@
         desc.className = "object-desc";
         desc.textContent = obj.description;
         info.appendChild(desc);
+        pendingDescToggles.push(desc);
       }
 
       if (obj.size) {
