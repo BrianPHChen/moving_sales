@@ -21,9 +21,13 @@
   }
 
   function cardMinPrice(item) {
-    const prices = item.objects.filter((o) => !o.sold).map(effectivePrice);
+    const prices = item.objects
+      .filter((o) => !o.sold)
+      .map(effectivePrice)
+      .filter((p) => p != null);
     if (prices.length === 0) {
-      return Math.min(...item.objects.map(effectivePrice));
+      const all = item.objects.map(effectivePrice).filter((p) => p != null);
+      return all.length === 0 ? Infinity : Math.min(...all);
     }
     return Math.min(...prices);
   }
@@ -247,7 +251,8 @@
 
       const price = document.createElement("div");
       price.className = "object-price";
-      price.textContent = money(obj.salePrice != null ? obj.salePrice : obj.price);
+      const effPrice = obj.salePrice != null ? obj.salePrice : obj.price;
+      price.textContent = effPrice != null ? money(effPrice) : "Price TBD";
       priceWrap.appendChild(price);
 
       row.appendChild(info);

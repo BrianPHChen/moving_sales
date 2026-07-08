@@ -461,5 +461,46 @@ window.MOVING_SALE_ITEMS = [
         "sold": false
       }
     ]
+  },
+  {
+    "images": [
+      "photos/IMG_8712.jpg",
+      "photos/IMG_8713.jpg"
+    ],
+    "objects": [
+      {
+        "name": "MOGULLY Tri-Fold Foam Mattress (Gray)",
+        "description": "Gray fabric tri-fold foldable memory foam mattress, functions as a floor bed/guest mattress and folds up for compact storage, good condition.",
+        "price": null,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_8712.jpg",
+      "photos/IMG_8714.jpg"
+    ],
+    "objects": [
+      {
+        "name": "Tri-Fold Foam Mattress (White/Herringbone, with Carrying Case)",
+        "description": "White herringbone-pattern tri-fold foldable memory foam mattress, includes a black zippered carrying case with handle, good condition.",
+        "price": null,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_8715.jpg"
+    ],
+    "objects": [
+      {
+        "name": "Philips Twin TurboStar Air Fryer",
+        "description": "Black Philips air fryer with Twin TurboStar technology, digital touch controls, and pull-out drawer/basket, shows light use but fully functional.",
+        "price": null,
+        "sold": false
+      }
+    ]
   }
 ];
