@@ -7,6 +7,8 @@
   const lightbox = document.getElementById("lightbox");
   const lightboxImg = document.getElementById("lightbox-img");
   const lightboxClose = document.getElementById("lightbox-close");
+  const lightboxPrev = document.getElementById("lightbox-prev");
+  const lightboxNext = document.getElementById("lightbox-next");
 
   const items = Array.isArray(window.MOVING_SALE_ITEMS) ? window.MOVING_SALE_ITEMS : [];
 
@@ -264,6 +266,9 @@
     lightboxImages = images;
     lightboxIndex = startIndex;
     lightboxImg.alt = alt;
+    const hasMultiple = lightboxImages.length > 1;
+    lightboxPrev.classList.toggle("hidden", !hasMultiple);
+    lightboxNext.classList.toggle("hidden", !hasMultiple);
     showLightboxImage();
     lightbox.classList.remove("hidden");
   }
@@ -272,12 +277,25 @@
     lightboxImg.src = lightboxImages[lightboxIndex];
   }
 
+  function showLightboxPhoto(i) {
+    lightboxIndex = (i + lightboxImages.length) % lightboxImages.length;
+    showLightboxImage();
+  }
+
   function closeLightbox() {
     lightbox.classList.add("hidden");
     lightboxImg.src = "";
   }
 
   lightboxClose.addEventListener("click", closeLightbox);
+  lightboxPrev.addEventListener("click", (e) => {
+    e.stopPropagation();
+    showLightboxPhoto(lightboxIndex - 1);
+  });
+  lightboxNext.addEventListener("click", (e) => {
+    e.stopPropagation();
+    showLightboxPhoto(lightboxIndex + 1);
+  });
   lightbox.addEventListener("click", (e) => {
     if (e.target === lightbox) closeLightbox();
   });
@@ -285,13 +303,10 @@
     if (lightbox.classList.contains("hidden")) return;
     if (e.key === "Escape") closeLightbox();
     if (e.key === "ArrowRight" && lightboxImages.length > 1) {
-      lightboxIndex = (lightboxIndex + 1) % lightboxImages.length;
-      showLightboxImage();
+      showLightboxPhoto(lightboxIndex + 1);
     }
     if (e.key === "ArrowLeft" && lightboxImages.length > 1) {
-      lightboxIndex =
-        (lightboxIndex - 1 + lightboxImages.length) % lightboxImages.length;
-      showLightboxImage();
+      showLightboxPhoto(lightboxIndex - 1);
     }
   });
 
