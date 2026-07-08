@@ -10,7 +10,7 @@ window.MOVING_SALE_ITEMS = [
       {
         "name": "Pink Powerpuff Girls Baseball Cap",
         "description": "Light pink adjustable baseball cap with embroidered heart-shaped Powerpuff Girls patch on front, appears new/lightly worn with no visible stains or damage.",
-        "price": 8,
+        "price": 10,
         "sold": false
       }
     ]
@@ -22,41 +22,24 @@ window.MOVING_SALE_ITEMS = [
     ],
     "objects": [
       {
-        "name": "Queen Size Pillow-Top Mattress",
-        "description": "Queen mattress with quilted white pillow-top cover and gray piping/trim, appears clean and in good used condition with no visible stains.",
-        "price": 150,
+        "name": "Vesgantti Queen Hybrid Mattress",
+        "description": "Vesgantti Queen Mattress, 10 Inch Hybrid Mattress with Memory Foam & Pocket Spring, Ergonomic Design for Pressure Relief, Medium Firm Feel Mattress in a Box (60 x 80 x 10 Inches, Queen Size). Appears clean and in good used condition with no visible stains.",
+        "price": 100,
         "sold": false
       }
     ]
   },
   {
     "images": [
-      "photos/IMG_3887.jpg"
+      "photos/IMG_3887.jpg",
+      "photos/IMG_3888.jpg",
+      "photos/IMG_3897.jpg"
     ],
     "objects": [
       {
-        "name": "Queen Metal Platform Bed Frame",
-        "description": "Black metal queen-size platform bed frame with sturdy legs, shown holding the mattress; frame shows normal light use wear, no rust or bending visible.",
-        "price": 60,
-        "sold": false
-      },
-      {
-        "name": "Silver Torchiere Floor Lamp",
-        "description": "Modern silver/chrome torchiere-style floor lamp with round uplight shade on a slim pole base, appears functional with clean finish and minor scuffs on base.",
-        "price": 20,
-        "sold": false
-      }
-    ]
-  },
-  {
-    "images": [
-      "photos/IMG_3888.jpg"
-    ],
-    "objects": [
-      {
-        "name": "5-Head Gooseneck Floor Lamp",
-        "description": "Black adjustable floor lamp with five flexible gooseneck arms each holding a bulb, working condition with warm white bulbs installed, minor cosmetic wear on base.",
-        "price": 25,
+        "name": "Sealy Spring Firm Mattress + Signature Adjustable Base (Queen)",
+        "description": "Queen adjustable bed set sold together: By Sealy Spring Firm Mattress (https://www.mattressfirm.com/by-sealy-spring-firm-mattress/5637526326.p) paired with a Signature Adjustable Base (https://www.mattressfirm.com/signature-adjustable-base/5637401830.p). Clean and in good used condition, base is fully functional.",
+        "price": 500,
         "sold": false
       }
     ]
@@ -128,19 +111,6 @@ window.MOVING_SALE_ITEMS = [
   },
   {
     "images": [
-      "photos/IMG_3897.jpg"
-    ],
-    "objects": [
-      {
-        "name": "Brown Teddy Bear Plush",
-        "description": "Medium-sized brown stuffed teddy bear in clean, gently-used condition sitting on the bed, soft plush material with no visible tears.",
-        "price": 5,
-        "sold": false
-      }
-    ]
-  },
-  {
-    "images": [
       "photos/IMG_3899.jpg"
     ],
     "objects": [
@@ -199,25 +169,13 @@ window.MOVING_SALE_ITEMS = [
   },
   {
     "images": [
-      "photos/IMG_3903.jpg"
-    ],
-    "objects": [
-      {
-        "name": "White 3-Drawer Nightstand/Side Table",
-        "description": "Small white wood nightstand with three drawers, approximately 24 inches tall, minor surface scuffs but structurally sound.",
-        "price": 25,
-        "sold": false
-      }
-    ]
-  },
-  {
-    "images": [
+      "photos/IMG_3903.jpg",
       "photos/IMG_3904.jpg"
     ],
     "objects": [
       {
         "name": "White Drop-Leaf Gateleg Table with Drawers",
-        "description": "White wooden drop-leaf dining/craft table with built-in 3-drawer storage column, extends to a long rectangular tabletop, good condition with minor surface wear.",
+        "description": "White wooden drop-leaf dining/craft table with built-in 3-drawer storage column, extends to a long rectangular tabletop, good condition with minor surface wear. Shown folded closed and extended open.",
         "price": 70,
         "sold": false
       }
@@ -254,26 +212,14 @@ window.MOVING_SALE_ITEMS = [
   },
   {
     "images": [
-      "photos/IMG_3910.jpg"
-    ],
-    "objects": [
-      {
-        "name": "White 3-Drawer Dresser/Chest",
-        "description": "White wood 3-drawer chest of drawers, approximately 34 inches tall, clean finish with minimal wear and smooth-operating drawers.",
-        "price": 45,
-        "sold": false
-      }
-    ]
-  },
-  {
-    "images": [
+      "photos/IMG_3910.jpg",
       "photos/IMG_3911.jpg"
     ],
     "objects": [
       {
-        "name": "White 3-Drawer Nightstand/Dresser (IKEA-style)",
-        "description": "White laminate small chest with three drawers and cutout pulls, good condition with minor scuffs on drawer fronts, roughly 24in wide x 18in deep x 30in tall.",
-        "price": 40,
+        "name": "White 3-Drawer Dresser/Chest",
+        "description": "White laminate 3-drawer chest with cutout pulls, approximately 24in wide x 18in deep x 30in tall, clean finish with minimal wear and smooth-operating drawers.",
+        "price": 45,
         "sold": false
       }
     ]
@@ -293,19 +239,7 @@ window.MOVING_SALE_ITEMS = [
   },
   {
     "images": [
-      "photos/IMG_3915.jpg"
-    ],
-    "objects": [
-      {
-        "name": "Clear Plastic Stackable Storage Drawer",
-        "description": "Small clear acrylic-style stacking drawer bin with pull handle, good condition with no visible cracks, useful for closet or drawer organization.",
-        "price": 8,
-        "sold": false
-      }
-    ]
-  },
-  {
-    "images": [
+      "photos/IMG_3915.jpg",
       "photos/IMG_3916.jpg"
     ],
     "objects": [
@@ -333,19 +267,7 @@ window.MOVING_SALE_ITEMS = [
   },
   {
     "images": [
-      "photos/IMG_3921.jpg"
-    ],
-    "objects": [
-      {
-        "name": "Tan Quilted Sofa Cover/Slipcover",
-        "description": "Tan diamond-quilted couch protector cover draped over a light gray sofa, good clean condition, fits a standard 3-seat sofa.",
-        "price": 15,
-        "sold": false
-      }
-    ]
-  },
-  {
-    "images": [
+      "photos/IMG_3921.jpg",
       "photos/IMG_3922.jpg",
       "photos/IMG_3923.jpg",
       "photos/IMG_3924.jpg"
@@ -355,6 +277,12 @@ window.MOVING_SALE_ITEMS = [
         "name": "Light Gray Upholstered Sofa",
         "description": "Light gray/beige linen-look fabric sofa with rolled arms and two seat cushions, overall good condition with minor fading, standard 3-seat size.",
         "price": 250,
+        "sold": false
+      },
+      {
+        "name": "Tan Quilted Sofa Cover/Slipcover",
+        "description": "Tan diamond-quilted couch protector cover, good clean condition, fits a standard 3-seat sofa, sold separately from the sofa.",
+        "price": 15,
         "sold": false
       }
     ]
