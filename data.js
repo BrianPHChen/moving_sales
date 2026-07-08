@@ -1,5 +1,8 @@
 // Auto-generated moving sale item data.
 // Edit prices / descriptions / "sold" flags directly here.
+// To mark a discount, add a "salePrice" field alongside "price" on an
+// object; "price" then displays as the crossed-out original and
+// "salePrice" displays as the current price.
 window.MOVING_SALE_ITEMS = [
   {
     "images": [
@@ -10,7 +13,8 @@ window.MOVING_SALE_ITEMS = [
       {
         "name": "Pink Powerpuff Girls Baseball Cap",
         "description": "Light pink adjustable baseball cap with embroidered heart-shaped Powerpuff Girls patch on front, appears new/lightly worn with no visible stains or damage.",
-        "price": 10,
+        "price": 25,
+        "salePrice": 10,
         "sold": false
       }
     ]
@@ -50,21 +54,21 @@ window.MOVING_SALE_ITEMS = [
     ],
     "objects": [
       {
-        "name": "Vornado-Style Pedestal Fan",
-        "description": "Modern black and wood-tone adjustable pedestal fan (Vornado-style whole-room air circulator), compact drum design, appears clean and functional with minor base scuffing.",
-        "price": 30,
+        "name": "DREO Pedestal Fan",
+        "description": "Modern black and wood-tone adjustable pedestal fan (DREO whole-room air circulator), compact drum design, appears clean and functional with minor base scuffing.",
+        "price": 75,
         "sold": false
       },
       {
-        "name": "Black Oscillating Pedestal Fan",
+        "name": "Lasko Oscillating Pedestal Fan",
         "description": "Standard black 16-inch oscillating stand fan with round wire cage guard and round weighted base, functional with some dust/grime on base, cord included.",
         "price": 15,
         "sold": false
       },
       {
-        "name": "Black Oscillating Stand Fan with Remote Control Panel",
+        "name": "Amazon Basics Oscillating Stand Fan with Remote Control Panel",
         "description": "Taller black oscillating pedestal fan with wire cage guard, chrome center cap, and built-in button control panel on the pole, functional with light wear on base.",
-        "price": 20,
+        "price": 35,
         "sold": false
       }
     ]
@@ -78,7 +82,8 @@ window.MOVING_SALE_ITEMS = [
       {
         "name": "White Foldable Clothes Drying Rack",
         "description": "White metal wire A-frame laundry drying rack with multiple tiers and a few clothespins attached, foldable for storage, appears in good functional condition with no rust.",
-        "price": 12,
+        "price": 20,
+        "salePrice": 5,
         "sold": false
       }
     ]
@@ -90,40 +95,35 @@ window.MOVING_SALE_ITEMS = [
     ],
     "objects": [
       {
-        "name": "Foldable Metal Bed Frame Base (Unfolded)",
-        "description": "Same black steel folding platform bed frame shown unfolded flat on the floor, no mattress, sturdy wire grid support with fold-out legs, good condition.",
-        "price": 45,
-        "sold": false
-      },
-      {
-        "name": "White Rolling Storage Drawer Cart",
-        "description": "White plastic multi-drawer rolling storage organizer cart with wire drawer fronts, some items stored inside, light general wear consistent with household use.",
-        "price": 20,
-        "sold": false
-      },
-      {
-        "name": "Full-Length Wood-Frame Mirror",
-        "description": "Wood-framed full-length wall/leaning mirror seen propped against a door in the background, appears in good condition with clear reflective surface.",
-        "price": 25,
+        "name": "Black Metal Queen Bed Base",
+        "description": "Black steel folding queen-size platform bed frame base, no mattress, sturdy wire grid support with fold-out legs, good condition.",
+        "price": 30,
         "sold": false
       }
     ]
   },
   {
     "images": [
-      "photos/IMG_3899.jpg"
+      "photos/IMG_3899.jpg",
+      "photos/IMG_3938.jpg"
     ],
     "objects": [
       {
-        "name": "Modern LED Floor Lamp (Round Head)",
-        "description": "Black metal torchiere-style floor lamp with a round dimmable LED disc head, roughly 65 inches tall, appears in good working condition.",
+        "name": "Modern LED Floor Lamp with Remote (Round Head)",
+        "description": "Black metal torchiere-style floor lamp with a round dimmable LED disc head and remote control, roughly 65 inches tall, appears in good working condition.",
         "price": 25,
         "sold": false
       },
       {
         "name": "5-Head Gooseneck Floor Lamp",
-        "description": "Silver/brushed nickel floor lamp with five adjustable gooseneck arms and cone-shaped shades, roughly 70 inches tall, functional with all bulbs lit.",
-        "price": 20,
+        "description": "Silver/brushed nickel floor lamp with five adjustable gooseneck arms and frosted cone-shaped shades, roughly 70 inches tall, all bulbs functional, minor cosmetic wear on base.",
+        "price": 10,
+        "sold": false
+      },
+      {
+        "name": "Black Torchiere Floor Lamp",
+        "description": "Single-bulb black metal floor lamp with frosted cone-shaped glass shade, clean and fully functional.",
+        "price": 10,
         "sold": false
       }
     ]
@@ -136,7 +136,7 @@ window.MOVING_SALE_ITEMS = [
       {
         "name": "Lasko Ceramic Tower Heater",
         "description": "Black and gray Lasko ceramic tower space heater with oscillation, timer, and temperature controls, approximately 23 inches tall, shows light dust but appears functional.",
-        "price": 20,
+        "price": 10,
         "sold": false
       }
     ]
@@ -147,9 +147,9 @@ window.MOVING_SALE_ITEMS = [
     ],
     "objects": [
       {
-        "name": "Over-the-Door Full-Length Mirror",
+        "name": "Over-the-Door Mirror",
         "description": "Wood-framed rectangular full-length mirror with over-the-door hooks, approximately 50 inches tall, clean glass with no visible cracks.",
-        "price": 15,
+        "price": 10,
         "sold": false
       }
     ]
@@ -160,9 +160,9 @@ window.MOVING_SALE_ITEMS = [
     ],
     "objects": [
       {
-        "name": "IKEA Poang-Style Armchair with Ottoman",
+        "name": "IKEA POÄNG Armchair and Ottoman, Birch Veneer/Knisa Light Beige",
         "description": "Bentwood (birch) armchair with beige fabric cushions paired with a matching cushioned footstool/ottoman, cushions show light wear but frame is solid.",
-        "price": 60,
+        "price": 35,
         "sold": false
       }
     ]
@@ -174,9 +174,9 @@ window.MOVING_SALE_ITEMS = [
     ],
     "objects": [
       {
-        "name": "White Drop-Leaf Gateleg Table with Drawers",
+        "name": "IKEA NORDEN Gateleg Table, White, 10 1/4/35/59 7/8x31 1/2 \"",
         "description": "White wooden drop-leaf dining/craft table with built-in 3-drawer storage column, extends to a long rectangular tabletop, good condition with minor surface wear. Shown folded closed and extended open.",
-        "price": 70,
+        "price": 180,
         "sold": false
       }
     ]
@@ -188,9 +188,9 @@ window.MOVING_SALE_ITEMS = [
     ],
     "objects": [
       {
-        "name": "Pikler Wooden Rocker/Climbing Arch Set",
+        "name": "Pikler Triangle Set 7in1 Toddler Wooden Climbing Sets",
         "description": "Natural birch plywood children's rocking arch with matching ramp/slide attachment, foldable design, light assembly marks but otherwise good used condition.",
-        "price": 65,
+        "price": 40,
         "sold": false
       }
     ]
@@ -203,9 +203,9 @@ window.MOVING_SALE_ITEMS = [
     ],
     "objects": [
       {
-        "name": "Hape Wooden Play Kitchen",
+        "name": "Hape Gourmet Kitchen Toy Fully Equipped Wooden Pretend Play Kitchen Set with Sink, Stove, Baking Oven, Cabinet, Turnable Knobs & Spice Shelf, Red",
         "description": "Hape brand toy kitchen with stovetop, oven, sink, faucet, and utensil rail in white and natural wood finish, approximately 28 inches tall, clean with no major damage.",
-        "price": 45,
+        "price": 35,
         "sold": false
       }
     ]
@@ -217,9 +217,9 @@ window.MOVING_SALE_ITEMS = [
     ],
     "objects": [
       {
-        "name": "White 3-Drawer Dresser/Chest",
-        "description": "White laminate 3-drawer chest with cutout pulls, approximately 24in wide x 18in deep x 30in tall, clean finish with minimal wear and smooth-operating drawers.",
-        "price": 45,
+        "name": "White 3-Drawer Dresser/Chest (Set of 2)",
+        "description": "White laminate 3-drawer chest with cutout pulls, approximately 24in wide x 18in deep x 30in tall, clean finish with minimal wear and smooth-operating drawers. Two available, sold together.",
+        "price": 75,
         "sold": false
       }
     ]
@@ -230,9 +230,9 @@ window.MOVING_SALE_ITEMS = [
     ],
     "objects": [
       {
-        "name": "Gray Metal 3-Drawer Rolling File Cabinet",
+        "name": "Mobile File Cabinet",
         "description": "Beige/gray steel mobile pedestal file cabinet with lock and casters, visible scuffs and scratches on drawer fronts consistent with office use, standard under-desk size.",
-        "price": 35,
+        "price": 10,
         "sold": false
       }
     ]
@@ -244,9 +244,9 @@ window.MOVING_SALE_ITEMS = [
     ],
     "objects": [
       {
-        "name": "Clear Plastic Stackable Storage Drawer Set (2-piece)",
+        "name": "Clear Acrylic Drawer Organizer",
         "description": "Two nested clear plastic stacking storage drawers/bins shown together, good used condition, sold as a set for closet or desk organization.",
-        "price": 12,
+        "price": 5,
         "sold": false
       }
     ]
@@ -260,7 +260,7 @@ window.MOVING_SALE_ITEMS = [
       {
         "name": "RESPAWN Black/Gray Gaming Chair",
         "description": "Black and gray faux-leather racing-style gaming chair with adjustable armrests, headrest pillow, and lumbar cushion, good condition with light wear on seat bolsters.",
-        "price": 90,
+        "price": 50,
         "sold": false
       }
     ]
@@ -274,15 +274,9 @@ window.MOVING_SALE_ITEMS = [
     ],
     "objects": [
       {
-        "name": "Light Gray Upholstered Sofa",
-        "description": "Light gray/beige linen-look fabric sofa with rolled arms and two seat cushions, overall good condition with minor fading, standard 3-seat size.",
-        "price": 250,
-        "sold": false
-      },
-      {
-        "name": "Tan Quilted Sofa Cover/Slipcover",
-        "description": "Tan diamond-quilted couch protector cover, good clean condition, fits a standard 3-seat sofa, sold separately from the sofa.",
-        "price": 15,
+        "name": "Light Gray Upholstered Sofa with Protective Slipcover",
+        "description": "Light gray/beige linen-look fabric sofa with rolled arms and two seat cushions, overall good condition with minor fading, standard 3-seat size. Includes tan diamond-quilted couch protector cover.",
+        "price": 120,
         "sold": false
       }
     ]
@@ -296,19 +290,13 @@ window.MOVING_SALE_ITEMS = [
       {
         "name": "White Electric Standing Desk",
         "description": "Light wood-tone electric height-adjustable standing desk with white dual-motor steel frame and control panel, good condition, approximately 55in wide.",
-        "price": 150,
-        "sold": false
-      },
-      {
-        "name": "Wood Monitor Riser Stand",
-        "description": "Light wood-tone monitor stand riser with black V-shaped legs, good condition, holds one monitor with cable pass-through.",
-        "price": 15,
+        "price": 120,
         "sold": false
       },
       {
         "name": "AOC Computer Monitor",
         "description": "Black AOC LED monitor (approx. 24in) on stand, good working condition with no visible screen damage.",
-        "price": 45,
+        "price": 30,
         "sold": false
       }
     ]
@@ -322,7 +310,7 @@ window.MOVING_SALE_ITEMS = [
       {
         "name": "Beige Upholstered Storage Ottoman",
         "description": "Square fabric storage ottoman with flip-top lid and dark wood feet, noticeable stains on the top cushion but structurally sound.",
-        "price": 25,
+        "price": 5,
         "sold": false
       }
     ]
@@ -333,9 +321,9 @@ window.MOVING_SALE_ITEMS = [
     ],
     "objects": [
       {
-        "name": "Black Metal Frame Side Table",
+        "name": "Dark Brown Side Table",
         "description": "Modern black metal X-brace side/end table with a dark wood-look top, minor surface scuffs, good condition overall.",
-        "price": 30,
+        "price": 25,
         "sold": false
       }
     ]
@@ -349,13 +337,13 @@ window.MOVING_SALE_ITEMS = [
       {
         "name": "Insignia Flat-Screen TV",
         "description": "Insignia LED TV (approx. 32-40in) with stand legs, screen appears in good working condition with no visible cracks.",
-        "price": 80,
+        "price": 100,
         "sold": false
       },
       {
         "name": "White Ribbed TV Stand / Media Console",
         "description": "White wood TV console with vertical ribbed door fronts and two cabinet compartments, clean condition with minor handling wear.",
-        "price": 90,
+        "price": 80,
         "sold": false
       }
     ]
@@ -367,15 +355,9 @@ window.MOVING_SALE_ITEMS = [
     ],
     "objects": [
       {
-        "name": "XGIMI Portable Projector with Remote",
-        "description": "White and gray XGIMI mini projector with matching remote control, shown in open hard case with foam padding, excellent condition.",
-        "price": 255,
-        "sold": false
-      },
-      {
-        "name": "Projector Tripod Stand",
-        "description": "Adjustable tripod stand in a black zippered carrying bag, compact travel size, appears in good condition.",
-        "price": 20,
+        "name": "XGIMI Portable Projector with Stand",
+        "description": "White and gray XGIMI mini projector with matching remote control, shown in open hard case with foam padding, excellent condition. Includes adjustable tripod stand in a black zippered carrying bag.",
+        "price": 100,
         "sold": false
       }
     ]
@@ -386,9 +368,9 @@ window.MOVING_SALE_ITEMS = [
     ],
     "objects": [
       {
-        "name": "Dreame Cordless Wet/Dry Vacuum",
+        "name": "Dreametech H12 PRO Wet Dry Vacuum Cleaner, Smart Floor Cleaner Cordless Vacuum and Mop for Hard Floors, One-Step Edge to Edge Cleaning with Hot Air Drying",
         "description": "Dreame smart cordless vacuum cleaner on self-cleaning charging dock, includes original box with accessories/attachments, looks like light use.",
-        "price": 180,
+        "price": 170,
         "sold": false
       }
     ]
@@ -401,32 +383,7 @@ window.MOVING_SALE_ITEMS = [
       {
         "name": "Wood-Top Metal Shoe Rack Organizer",
         "description": "4-tier rustic wood and black metal shoe storage rack with mesh shelf dividers, sturdy condition with normal light wear (shoes not included).",
-        "price": 35,
-        "sold": false
-      },
-      {
-        "name": "Artificial Plant in Woven Basket Planter",
-        "description": "Faux greenery plant in a small woven seagrass basket planter, decorative accent piece in good condition.",
-        "price": 12,
-        "sold": false
-      }
-    ]
-  },
-  {
-    "images": [
-      "photos/IMG_3938.jpg"
-    ],
-    "objects": [
-      {
-        "name": "Black Torchiere Floor Lamp",
-        "description": "Single-bulb black metal floor lamp with frosted cone-shaped glass shade, clean and fully functional.",
-        "price": 20,
-        "sold": false
-      },
-      {
-        "name": "Silver 5-Head Gooseneck Floor Lamp",
-        "description": "Adjustable silver floor lamp with five flexible gooseneck arms and frosted shades, all lights functional, minor cosmetic wear on base.",
-        "price": 25,
+        "price": 30,
         "sold": false
       }
     ]
@@ -439,25 +396,25 @@ window.MOVING_SALE_ITEMS = [
       {
         "name": "Grow Gorgeous Intense Hair Density Serum (60ml)",
         "description": "Sealed/boxed hair density serum for fine, thinning hair, appears new and unopened.",
-        "price": 15,
+        "price": 20,
         "sold": false
       },
       {
         "name": "Sensodyne Advanced Whitening Toothpaste (2-pack)",
         "description": "Two 6.5oz tubes of Sensodyne sensitivity toothpaste, new/unused, sold as a pair.",
-        "price": 6,
+        "price": 5,
         "sold": false
       },
       {
         "name": "Bath & Body Works Mahogany Coconut Body Cream (8oz)",
         "description": "Ultimate hydration body cream with shea butter and hyaluronic acid, tube appears new/mostly full.",
-        "price": 8,
+        "price": 5,
         "sold": false
       },
       {
         "name": "Sabon Body Lotion (Patchouli Lavender Vanilla)",
         "description": "Pump-bottle body lotion enriched with natural oils, bottle appears partially used with product visible inside.",
-        "price": 10,
+        "price": 15,
         "sold": false
       }
     ]
@@ -470,13 +427,7 @@ window.MOVING_SALE_ITEMS = [
       {
         "name": "WaterWipes Baby Wipes (12-Pack, 720 ct)",
         "description": "Large unopened case of sensitive newborn baby wipes, 12 packs totaling 720 wipes, new condition.",
-        "price": 20,
-        "sold": false
-      },
-      {
-        "name": "Black Folding Step Stool",
-        "description": "Compact plastic folding step stool, sturdy construction, shows light general use wear.",
-        "price": 10,
+        "price": 30,
         "sold": false
       }
     ]

@@ -14,10 +14,14 @@
     return "$" + Number(n).toLocaleString("en-US");
   }
 
+  function effectivePrice(o) {
+    return o.salePrice != null ? o.salePrice : o.price;
+  }
+
   function cardMinPrice(item) {
-    const prices = item.objects.filter((o) => !o.sold).map((o) => o.price);
+    const prices = item.objects.filter((o) => !o.sold).map(effectivePrice);
     if (prices.length === 0) {
-      return Math.min(...item.objects.map((o) => o.price));
+      return Math.min(...item.objects.map(effectivePrice));
     }
     return Math.min(...prices);
   }
@@ -170,12 +174,23 @@
         info.appendChild(desc);
       }
 
+      const priceWrap = document.createElement("div");
+      priceWrap.className = "object-price-wrap";
+
+      if (obj.salePrice != null) {
+        const original = document.createElement("div");
+        original.className = "original-price";
+        original.textContent = money(obj.price);
+        priceWrap.appendChild(original);
+      }
+
       const price = document.createElement("div");
       price.className = "object-price";
-      price.textContent = money(obj.price);
+      price.textContent = money(obj.salePrice != null ? obj.salePrice : obj.price);
+      priceWrap.appendChild(price);
 
       row.appendChild(info);
-      row.appendChild(price);
+      row.appendChild(priceWrap);
       body.appendChild(row);
     });
 

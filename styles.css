@@ -197,6 +197,20 @@ body {
   font-size: 0.88rem;
 }
 
+.object-price-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.1rem;
+}
+
+.original-price {
+  color: var(--sold);
+  text-decoration: line-through;
+  white-space: nowrap;
+  font-size: 0.85rem;
+}
+
 .object-price {
   font-weight: 700;
   color: var(--accent);
