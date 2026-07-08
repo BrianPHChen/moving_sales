@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Moving Sale</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <h1>Moving Sale</h1>
+  <p class="subtitle">Everything must go &mdash; message for pickup. All prices in USD, negotiable.</p>
+  <p class="location">&#128205; Westwood, Los Angeles, CA 90049 &mdash; exact address provided upon contact</p>
+  <div class="controls">
+    <input type="search" id="search" placeholder="Search items&hellip;">
+    <select id="sort">
+      <option value="default">Sort: Default</option>
+      <option value="price-asc">Price: Low to High</option>
+      <option value="price-desc">Price: High to Low</option>
+      <option value="name-asc">Name: A to Z</option>
+    </select>
+    <label class="hide-sold-toggle">
+      <input type="checkbox" id="hide-sold">
+      Hide sold items
+    </label>
+  </div>
+  <p class="count" id="item-count"></p>
+</header>
+
+<main id="gallery" class="gallery"></main>
+
+<footer class="site-footer">
+  <p>Thanks for looking! Contact via email/text to arrange pickup.</p>
+</footer>
+
+<div id="lightbox" class="lightbox hidden">
+  <button class="lightbox-close" id="lightbox-close" aria-label="Close">&times;</button>
+  <img id="lightbox-img" src="" alt="">
+</div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

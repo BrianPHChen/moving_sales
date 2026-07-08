@@ -1,0 +1,229 @@
+(function () {
+  const gallery = document.getElementById("gallery");
+  const searchInput = document.getElementById("search");
+  const sortSelect = document.getElementById("sort");
+  const hideSoldCheckbox = document.getElementById("hide-sold");
+  const countEl = document.getElementById("item-count");
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImg = document.getElementById("lightbox-img");
+  const lightboxClose = document.getElementById("lightbox-close");
+
+  const items = Array.isArray(window.MOVING_SALE_ITEMS) ? window.MOVING_SALE_ITEMS : [];
+
+  function money(n) {
+    return "$" + Number(n).toLocaleString("en-US");
+  }
+
+  function cardMinPrice(item) {
+    const prices = item.objects.filter((o) => !o.sold).map((o) => o.price);
+    if (prices.length === 0) {
+      return Math.min(...item.objects.map((o) => o.price));
+    }
+    return Math.min(...prices);
+  }
+
+  function cardMatchesSearch(item, query) {
+    if (!query) return true;
+    const haystack = (
+      item.objects.map((o) => o.name + " " + o.description).join(" ")
+    ).toLowerCase();
+    return haystack.includes(query);
+  }
+
+  function allSold(item) {
+    return item.objects.every((o) => o.sold);
+  }
+
+  function render() {
+    const query = searchInput.value.trim().toLowerCase();
+    const hideSold = hideSoldCheckbox.checked;
+    const sortMode = sortSelect.value;
+
+    let visible = items.filter((item) => cardMatchesSearch(item, query));
+    if (hideSold) {
+      visible = visible.filter((item) => !allSold(item));
+    }
+
+    visible = visible.slice();
+    if (sortMode === "price-asc") {
+      visible.sort((a, b) => cardMinPrice(a) - cardMinPrice(b));
+    } else if (sortMode === "price-desc") {
+      visible.sort((a, b) => cardMinPrice(b) - cardMinPrice(a));
+    } else if (sortMode === "name-asc") {
+      visible.sort((a, b) =>
+        a.objects[0].name.localeCompare(b.objects[0].name)
+      );
+    }
+
+    gallery.innerHTML = "";
+
+    if (visible.length === 0) {
+      const empty = document.createElement("p");
+      empty.className = "no-results";
+      empty.textContent = "No items match your search.";
+      gallery.appendChild(empty);
+    } else {
+      visible.forEach((item) => gallery.appendChild(renderCard(item)));
+    }
+
+    const totalObjects = items.reduce((sum, i) => sum + i.objects.length, 0);
+    const soldObjects = items.reduce(
+      (sum, i) => sum + i.objects.filter((o) => o.sold).length,
+      0
+    );
+    countEl.textContent =
+      totalObjects +
+      " items listed (" +
+      (totalObjects - soldObjects) +
+      " available, " +
+      soldObjects +
+      " sold)";
+  }
+
+  function renderCard(item) {
+    const card = document.createElement("div");
+    card.className = "card";
+    const alt = item.objects.map((o) => o.name).join(", ");
+
+    const photoWrap = document.createElement("div");
+    photoWrap.className = "card-photo-wrap";
+
+    const img = document.createElement("img");
+    img.className = "card-photo";
+    img.src = item.images[0];
+    img.alt = alt;
+    img.loading = "lazy";
+    let photoIndex = 0;
+    img.addEventListener("click", () => openLightbox(item.images, photoIndex, alt));
+    photoWrap.appendChild(img);
+
+    if (item.images.length > 1) {
+      const prev = document.createElement("button");
+      prev.className = "photo-nav photo-nav-prev";
+      prev.type = "button";
+      prev.textContent = "‹";
+      prev.setAttribute("aria-label", "Previous photo");
+
+      const next = document.createElement("button");
+      next.className = "photo-nav photo-nav-next";
+      next.type = "button";
+      next.textContent = "›";
+      next.setAttribute("aria-label", "Next photo");
+
+      const dots = document.createElement("div");
+      dots.className = "photo-dots";
+      item.images.forEach((_, i) => {
+        const dot = document.createElement("span");
+        dot.className = "photo-dot" + (i === 0 ? " active" : "");
+        dots.appendChild(dot);
+      });
+
+      function showPhoto(i) {
+        photoIndex = (i + item.images.length) % item.images.length;
+        img.src = item.images[photoIndex];
+        [...dots.children].forEach((d, di) =>
+          d.classList.toggle("active", di === photoIndex)
+        );
+      }
+
+      prev.addEventListener("click", (e) => {
+        e.stopPropagation();
+        showPhoto(photoIndex - 1);
+      });
+      next.addEventListener("click", (e) => {
+        e.stopPropagation();
+        showPhoto(photoIndex + 1);
+      });
+
+      photoWrap.appendChild(prev);
+      photoWrap.appendChild(next);
+      photoWrap.appendChild(dots);
+    }
+
+    card.appendChild(photoWrap);
+
+    const body = document.createElement("div");
+    body.className = "card-body";
+
+    item.objects.forEach((obj) => {
+      const row = document.createElement("div");
+      row.className = "object-row" + (obj.sold ? " sold" : "");
+
+      const info = document.createElement("div");
+      info.className = "object-info";
+
+      const name = document.createElement("p");
+      name.className = "object-name";
+      name.textContent = obj.name;
+      if (obj.sold) {
+        const badge = document.createElement("span");
+        badge.className = "sold-badge";
+        badge.textContent = "SOLD";
+        name.appendChild(badge);
+      }
+      info.appendChild(name);
+
+      if (obj.description) {
+        const desc = document.createElement("p");
+        desc.className = "object-desc";
+        desc.textContent = obj.description;
+        info.appendChild(desc);
+      }
+
+      const price = document.createElement("div");
+      price.className = "object-price";
+      price.textContent = money(obj.price);
+
+      row.appendChild(info);
+      row.appendChild(price);
+      body.appendChild(row);
+    });
+
+    card.appendChild(body);
+    return card;
+  }
+
+  let lightboxImages = [];
+  let lightboxIndex = 0;
+
+  function openLightbox(images, startIndex, alt) {
+    lightboxImages = images;
+    lightboxIndex = startIndex;
+    lightboxImg.alt = alt;
+    showLightboxImage();
+    lightbox.classList.remove("hidden");
+  }
+
+  function showLightboxImage() {
+    lightboxImg.src = lightboxImages[lightboxIndex];
+  }
+
+  function closeLightbox() {
+    lightbox.classList.add("hidden");
+    lightboxImg.src = "";
+  }
+
+  lightboxClose.addEventListener("click", closeLightbox);
+  lightbox.addEventListener("click", (e) => {
+    if (e.target === lightbox) closeLightbox();
+  });
+  document.addEventListener("keydown", (e) => {
+    if (lightbox.classList.contains("hidden")) return;
+    if (e.key === "Escape") closeLightbox();
+    if (e.key === "ArrowRight" && lightboxImages.length > 1) {
+      lightboxIndex = (lightboxIndex + 1) % lightboxImages.length;
+      showLightboxImage();
+    }
+    if (e.key === "ArrowLeft" && lightboxImages.length > 1) {
+      lightboxIndex =
+        (lightboxIndex - 1 + lightboxImages.length) % lightboxImages.length;
+      showLightboxImage();
+    }
+  });
+
+  searchInput.addEventListener("input", render);
+  sortSelect.addEventListener("change", render);
+  hideSoldCheckbox.addEventListener("change", render);
+
+  render();
+})();
