@@ -174,10 +174,49 @@
         info.appendChild(desc);
       }
 
+      if (obj.size) {
+        const size = document.createElement("p");
+        size.className = "object-size";
+        size.textContent = "Size: " + obj.size;
+        info.appendChild(size);
+      }
+
+      if (obj.link) {
+        const link = document.createElement("a");
+        link.className = "object-link";
+        link.href = obj.link;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.textContent = "View original listing";
+        info.appendChild(link);
+      }
+
+      if (Array.isArray(obj.links)) {
+        const list = document.createElement("ul");
+        list.className = "object-links";
+        obj.links.forEach((l) => {
+          const item = document.createElement("li");
+          const link = document.createElement("a");
+          link.className = "object-link";
+          link.href = l.url;
+          link.target = "_blank";
+          link.rel = "noopener noreferrer";
+          link.textContent = l.label || "View original listing";
+          item.appendChild(link);
+          list.appendChild(item);
+        });
+        info.appendChild(list);
+      }
+
       const priceWrap = document.createElement("div");
       priceWrap.className = "object-price-wrap";
 
-      if (obj.salePrice != null) {
+      if (obj.originalPrice != null) {
+        const retail = document.createElement("div");
+        retail.className = "original-price";
+        retail.textContent = "Retail " + money(obj.originalPrice);
+        priceWrap.appendChild(retail);
+      } else if (obj.salePrice != null) {
         const original = document.createElement("div");
         original.className = "original-price";
         original.textContent = money(obj.price);
