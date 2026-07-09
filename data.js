@@ -5,7 +5,7 @@
 // "salePrice" displays as the current price.
 // Auto-bumped by .githooks/pre-commit on every commit that touches this
 // file, along with the ?v= cache-busting query strings in index.html.
-window.MOVING_SALE_LAST_UPDATED = "2026-07-08T23:02:12-07:00";
+window.MOVING_SALE_LAST_UPDATED = "2026-07-08T23:09:16-07:00";
 window.MOVING_SALE_ITEMS = [
   {
     "images": [
@@ -501,6 +501,46 @@ window.MOVING_SALE_ITEMS = [
       {
         "name": "Philips Twin TurboStar Air Fryer",
         "description": "Black Philips air fryer with Twin TurboStar technology, digital touch controls, and pull-out drawer/basket, shows light use but fully functional.",
+        "price": null,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_8716.jpg",
+      "photos/IMG_8717.jpg"
+    ],
+    "objects": [
+      {
+        "name": "IKEA RAST 3-Drawer Chest",
+        "description": "Unfinished solid pine 3-drawer chest with round turned wood knobs, good condition with normal wear, drawers slide smoothly.",
+        "price": null,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_8718.jpg"
+    ],
+    "objects": [
+      {
+        "name": "PARTU Air Purifier",
+        "description": "Black cylindrical PARTU air purifier with adjustable fan speed, light, and lock controls, includes power adapter, fully functional.",
+        "price": null,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_8722.jpg"
+    ],
+    "objects": [
+      {
+        "name": "BalanceFrom Tri-Fold Folding Exercise Mat",
+        "description": "Black vinyl tri-fold gymnastics/yoga exercise mat with carrying handles, foam padded, good condition with minor surface scuffs.",
         "price": null,
         "sold": false
       }
