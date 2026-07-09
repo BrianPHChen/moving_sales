@@ -5,7 +5,7 @@
 // "salePrice" displays as the current price.
 // Auto-bumped by .githooks/pre-commit on every commit that touches this
 // file, along with the ?v= cache-busting query strings in index.html.
-window.MOVING_SALE_LAST_UPDATED = "2026-07-08T23:09:16-07:00";
+window.MOVING_SALE_LAST_UPDATED = "2026-07-09T00:21:47-07:00";
 window.MOVING_SALE_ITEMS = [
   {
     "images": [
@@ -495,13 +495,19 @@ window.MOVING_SALE_ITEMS = [
   },
   {
     "images": [
-      "photos/IMG_8715.jpg"
+      "photos/IMG_3964.jpg"
     ],
     "objects": [
       {
-        "name": "Philips Twin TurboStar Air Fryer",
-        "description": "Black Philips air fryer with Twin TurboStar technology, digital touch controls, and pull-out drawer/basket, shows light use but fully functional.",
-        "price": null,
+        "name": "Philips Premium Airfryer XXL with Fat Removal Technology, HD9650/96 (3lb/7qt, Black)",
+        "description": "Black Philips XXL air fryer with fat removal technology, digital touch controls, and pull-out drawer/basket, shows light use but fully functional.",
+        "price": 100,
+        "sold": false
+      },
+      {
+        "name": "Comfee Toaster Oven",
+        "description": "Black Comfee countertop toaster oven with temperature/mode and timer dials, functional.",
+        "price": 20,
         "sold": false
       }
     ]
@@ -542,6 +548,392 @@ window.MOVING_SALE_ITEMS = [
         "name": "BalanceFrom Tri-Fold Folding Exercise Mat",
         "description": "Black vinyl tri-fold gymnastics/yoga exercise mat with carrying handles, foam padded, good condition with minor surface scuffs.",
         "price": null,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_3944.jpg",
+      "photos/IMG_3946.jpg"
+    ],
+    "objects": [
+      {
+        "name": "ELYKEN Coat Rack Freestanding, Hall Tree with 3 Storage Shelves and 12 Hooks, Rustic Brown",
+        "description": "Black metal entryway coat rack tower with 12 hooks and three wood-tone storage shelves, good condition.",
+        "price": 50,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_3943.jpg"
+    ],
+    "objects": [
+      {
+        "name": "Honeywell HPA300 HEPA Air Purifier for Extra Large Rooms",
+        "description": "Black Honeywell HPA300 HEPA air purifier, reduces microscopic airborne allergens and dust, cleans up to 2250 sq ft in 1 hour. Includes a set of unopened replacement filters, fully functional.",
+        "price": 100,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_3947.jpg"
+    ],
+    "objects": [
+      {
+        "name": "321 STRONG Foam Roller",
+        "description": "Black textured foam massage roller, good condition.",
+        "price": 5,
+        "sold": false
+      },
+      {
+        "name": "Lacrosse-Style Massage Ball",
+        "description": "Blue rubber massage ball, good condition.",
+        "price": 5,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_3949.jpg"
+    ],
+    "objects": [
+      {
+        "name": "Topwit Glass Electric Kettle",
+        "description": "Stainless steel and glass electric kettle, functional, some mineral buildup visible from use.",
+        "price": 25,
+        "sold": false
+      },
+      {
+        "name": "Chefman Glass Electric Kettle",
+        "description": "Stainless steel and glass electric kettle with mesh tea infuser, functional, some mineral buildup visible from use.",
+        "price": 25,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_3950.jpg"
+    ],
+    "objects": [
+      {
+        "name": "OXO POP Airtight Food Storage Container",
+        "description": "Clear plastic airtight storage container with flip-lock lid, good condition.",
+        "price": 20,
+        "size": "15cm x 15cm x 24cm",
+        "sold": false
+      },
+      {
+        "name": "OXO POP Airtight Food Storage Container",
+        "description": "Clear plastic airtight storage container with push-button lid, good condition.",
+        "price": 20,
+        "size": "10cm x 15cm x 24cm",
+        "sold": false
+      },
+      {
+        "name": "OXO POP Airtight Food Storage Container",
+        "description": "Clear plastic airtight storage container with push-button lid, good condition, currently holds rice.",
+        "price": 20,
+        "size": "10cm x 17cm x 31cm",
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_3951.jpg"
+    ],
+    "objects": [
+      {
+        "name": "Hamilton Beach Food Processor",
+        "description": "Black and clear Hamilton Beach food processor with chop/mix/puree and slice/shred functions, includes attachments, fully functional.",
+        "price": 25,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_3952.jpg"
+    ],
+    "objects": [
+      {
+        "name": "Instant Pot Duo Plus, 6-Quart 9-in-1 Electric Pressure Cooker",
+        "description": "Stainless steel Instant Pot Duo Plus multi-cooker: pressure cook, slow cook, saute, rice, yogurt maker, steamer, warmer, and sterilizer, fully functional.",
+        "price": 85,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_3953.jpg"
+    ],
+    "objects": [
+      {
+        "name": "Stainless Steel Mixing Bowl",
+        "description": "Large stainless steel mixing bowl, good condition.",
+        "price": 5,
+        "sold": false
+      },
+      {
+        "name": "Pink Colander",
+        "description": "Pink plastic colander, good condition.",
+        "price": 5,
+        "sold": false
+      },
+      {
+        "name": "Mesh Strainer Basket Set",
+        "description": "Teal plastic strainer basket with nested metal mesh sieves, good condition.",
+        "price": 5,
+        "sold": false
+      },
+      {
+        "name": "Chrome Dish Rack",
+        "description": "Chrome wire dish drying rack, good condition.",
+        "price": 5,
+        "sold": false
+      },
+      {
+        "name": "Woven Storage Basket",
+        "description": "Woven basket with blue-trimmed handle, good condition.",
+        "price": 5,
+        "sold": false
+      },
+      {
+        "name": "Microwave Steamer Container",
+        "description": "White plastic microwave food steamer with vented lid, good condition.",
+        "price": 5,
+        "sold": false
+      },
+      {
+        "name": "Basting Brush",
+        "description": "Wood-handled basting brush, new/unused.",
+        "price": 5,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_3954.jpg"
+    ],
+    "objects": [
+      {
+        "name": "Electric Wine Opener",
+        "description": "New/boxed electric wine bottle opener, battery powered.",
+        "price": null,
+        "sold": false
+      },
+      {
+        "name": "Stainless Steel Portable Electric Kettle (Standard Plug)",
+        "description": "New/boxed green portable travel electric kettle with digital display.",
+        "price": 20,
+        "sold": false
+      },
+      {
+        "name": "Stainless Steel Portable Electric Kettle (Car Plug)",
+        "description": "New/boxed white portable car electric kettle with digital display.",
+        "price": 20,
+        "sold": false
+      },
+      {
+        "name": "Glass Tea Mug with Saucer",
+        "description": "New/boxed \"Cooking Tea Mug\" glass mug and saucer set, 200ml.",
+        "price": null,
+        "sold": false
+      },
+      {
+        "name": "Portable Tea Infuser Cup",
+        "description": "New/boxed portable tea infuser travel cup with red lid, 350ml.",
+        "price": null,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_3955.jpg"
+    ],
+    "objects": [
+      {
+        "name": "Oster Personal Blender",
+        "description": "Pink and white Oster personal blender with spare blending bottle, plus a couple of extra mugs, functional.",
+        "price": 15,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_3956.jpg"
+    ],
+    "objects": [
+      {
+        "name": "YOOLYQI Electric Hot Pot",
+        "description": "Khaki 1.5L electric hot pot with glass lid, 600W, includes original box, brand new.",
+        "price": 10,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_3961.jpg"
+    ],
+    "objects": [
+      {
+        "name": "Apron (Mickey Mouse)",
+        "description": "Black kitchen apron with embroidered Mickey Mouse patch, good condition.",
+        "price": 5,
+        "sold": false
+      },
+      {
+        "name": "Food Tent",
+        "description": "Peach cherry-print foldable mesh food cover tent, good condition.",
+        "price": 5,
+        "sold": false
+      },
+      {
+        "name": "Winnie the Pooh Water Pitcher",
+        "description": "Clear plastic water pitcher with Winnie the Pooh graphics and yellow lid, good condition.",
+        "price": 10,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_3962.jpg"
+    ],
+    "objects": [
+      {
+        "name": "Chinet Cut Crystal Plastic Cups (150-Count)",
+        "description": "Unopened bag of Chinet Cut Crystal disposable plastic cups, 10oz, 150 count.",
+        "price": 5,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_3963.jpg"
+    ],
+    "objects": [
+      {
+        "name": "French Press Coffee Maker",
+        "description": "Glass and metal French press coffee maker, good condition.",
+        "price": 10,
+        "sold": false
+      },
+      {
+        "name": "BrewNimbus Milk Frothing Pitcher, 20oz/600ml",
+        "description": "Black stainless steel milk frothing pitcher, good condition.",
+        "price": 15,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_3965.jpg"
+    ],
+    "objects": [
+      {
+        "name": "Stainless Steel Trash Can (Round)",
+        "description": "Small round stainless steel step-open trash can, good condition.",
+        "price": 25,
+        "sold": false
+      },
+      {
+        "name": "Stainless Steel Trash Can (Rectangular)",
+        "description": "Small rectangular stainless steel step-open trash can, good condition.",
+        "price": 25,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_3966.jpg"
+    ],
+    "objects": [
+      {
+        "name": "Disposable Dry Mop Pads",
+        "description": "Pink flat mop with rotating head and extendable handle, includes extra unopened refill mop pads.",
+        "price": 15,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_3975.jpg"
+    ],
+    "objects": [
+      {
+        "name": "Adidas Originals Crossbody Bag",
+        "description": "Pink Adidas Originals nylon crossbody bag, good condition.",
+        "price": 15,
+        "sold": false
+      },
+      {
+        "name": "Woven Leather Crossbody Bag",
+        "description": "Brown woven leather crossbody bag, good condition.",
+        "price": 15,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_3988.jpg",
+      "photos/IMG_3988_2.jpg",
+      "photos/IMG_3988_3.jpg",
+      "photos/IMG_3988_4.jpg"
+    ],
+    "objects": [
+      {
+        "name": "Disney Red Panda Plush",
+        "description": "Brand new orange and white Disney red panda stuffed animal.",
+        "price": 20,
+        "sold": false
+      },
+      {
+        "name": "Hallmark Teddy Bear Plush",
+        "description": "Brand new light blue Hallmark teddy bear with satin bow.",
+        "price": 20,
+        "sold": false
+      },
+      {
+        "name": "Pilot Bear Plush",
+        "description": "Brand new tan pilot bear plush with aviator goggles, still in packaging.",
+        "price": 20,
+        "sold": false
+      },
+      {
+        "name": "Taiwan Black Bear Mascot Plush",
+        "description": "Brand new black Formosan bear plush with woven headband.",
+        "price": 20,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_3994.jpg"
+    ],
+    "objects": [
+      {
+        "name": "Utopia Bedding Bed Pillows for Sleeping, Queen Size (White), Set of 2, Cooling Hotel Quality",
+        "description": "Brand new set of two white queen-size cooling hotel-quality bed pillows.",
+        "price": 20,
         "sold": false
       }
     ]
