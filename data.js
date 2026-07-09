@@ -5,7 +5,7 @@
 // "salePrice" displays as the current price.
 // Auto-bumped by .githooks/pre-commit on every commit that touches this
 // file, along with the ?v= cache-busting query strings in index.html.
-window.MOVING_SALE_LAST_UPDATED = "2026-07-08T22:58:30-07:00";
+window.MOVING_SALE_LAST_UPDATED = "2026-07-08T23:02:12-07:00";
 window.MOVING_SALE_ITEMS = [
   {
     "images": [
@@ -254,7 +254,7 @@ window.MOVING_SALE_ITEMS = [
         "description": "Beige/gray steel mobile pedestal file cabinet with lock and casters, visible scuffs and scratches on drawer fronts consistent with office use, standard under-desk size.",
         "price": 10,
         "size": "38cm x 58cm x 68cm",
-        "sold": false
+        "sold": true
       }
     ]
   },
