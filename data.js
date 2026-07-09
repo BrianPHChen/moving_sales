@@ -5,7 +5,7 @@
 // "salePrice" displays as the current price.
 // Auto-bumped by .githooks/pre-commit on every commit that touches this
 // file, along with the ?v= cache-busting query strings in index.html.
-window.MOVING_SALE_LAST_UPDATED = "2026-07-09T00:21:47-07:00";
+window.MOVING_SALE_LAST_UPDATED = "2026-07-09T00:49:09-07:00";
 window.MOVING_SALE_ITEMS = [
   {
     "images": [
@@ -474,7 +474,7 @@ window.MOVING_SALE_ITEMS = [
       {
         "name": "MOGULLY Tri-Fold Foam Mattress (Gray)",
         "description": "Gray fabric tri-fold foldable memory foam mattress, functions as a floor bed/guest mattress and folds up for compact storage, good condition.",
-        "price": null,
+        "price": 50,
         "sold": false
       }
     ]
@@ -488,7 +488,9 @@ window.MOVING_SALE_ITEMS = [
       {
         "name": "Tri-Fold Foam Mattress (White/Herringbone, with Carrying Case)",
         "description": "White herringbone-pattern tri-fold foldable memory foam mattress, includes a black zippered carrying case with handle, good condition.",
-        "price": null,
+        "price": 35,
+        "originalPrice": 50,
+        "link": "https://www.amazon.com/Tri-Fold-Mattress-Folding-Collapsible-Washable/dp/B0BVVY5FZV/",
         "sold": false
       }
     ]
@@ -521,7 +523,7 @@ window.MOVING_SALE_ITEMS = [
       {
         "name": "IKEA RAST 3-Drawer Chest",
         "description": "Unfinished solid pine 3-drawer chest with round turned wood knobs, good condition with normal wear, drawers slide smoothly.",
-        "price": null,
+        "price": 60,
         "sold": false
       }
     ]
@@ -534,7 +536,7 @@ window.MOVING_SALE_ITEMS = [
       {
         "name": "PARTU Air Purifier",
         "description": "Black cylindrical PARTU air purifier with adjustable fan speed, light, and lock controls, includes power adapter, fully functional.",
-        "price": null,
+        "price": 20,
         "sold": false
       }
     ]
@@ -547,7 +549,7 @@ window.MOVING_SALE_ITEMS = [
       {
         "name": "BalanceFrom Tri-Fold Folding Exercise Mat",
         "description": "Black vinyl tri-fold gymnastics/yoga exercise mat with carrying handles, foam padded, good condition with minor surface scuffs.",
-        "price": null,
+        "price": 10,
         "sold": false
       }
     ]
@@ -561,7 +563,9 @@ window.MOVING_SALE_ITEMS = [
       {
         "name": "ELYKEN Coat Rack Freestanding, Hall Tree with 3 Storage Shelves and 12 Hooks, Rustic Brown",
         "description": "Black metal entryway coat rack tower with 12 hooks and three wood-tone storage shelves, good condition.",
-        "price": 50,
+        "price": 35,
+        "originalPrice": 50,
+        "link": "https://www.amazon.com/ELYKEN-Freestanding-Storage-Organizer-Entryway/dp/B0D2HVFQ3S/",
         "sold": false
       }
     ]
@@ -637,7 +641,7 @@ window.MOVING_SALE_ITEMS = [
         "sold": false
       },
       {
-        "name": "OXO POP Airtight Food Storage Container",
+        "name": "Storage Container",
         "description": "Clear plastic airtight storage container with push-button lid, good condition, currently holds rice.",
         "price": 20,
         "size": "10cm x 17cm x 31cm",
@@ -728,7 +732,7 @@ window.MOVING_SALE_ITEMS = [
       {
         "name": "Electric Wine Opener",
         "description": "New/boxed electric wine bottle opener, battery powered.",
-        "price": null,
+        "price": 10,
         "sold": false
       },
       {
@@ -746,13 +750,13 @@ window.MOVING_SALE_ITEMS = [
       {
         "name": "Glass Tea Mug with Saucer",
         "description": "New/boxed \"Cooking Tea Mug\" glass mug and saucer set, 200ml.",
-        "price": null,
+        "price": 5,
         "sold": false
       },
       {
         "name": "Portable Tea Infuser Cup",
         "description": "New/boxed portable tea infuser travel cup with red lid, 350ml.",
-        "price": null,
+        "price": 15,
         "sold": false
       }
     ]
@@ -764,8 +768,20 @@ window.MOVING_SALE_ITEMS = [
     "objects": [
       {
         "name": "Oster Personal Blender",
-        "description": "Pink and white Oster personal blender with spare blending bottle, plus a couple of extra mugs, functional.",
+        "description": "Pink and white Oster personal blender with spare blending bottle, functional.",
         "price": 15,
+        "sold": false
+      },
+      {
+        "name": "5G Glass Tumbler",
+        "description": "Clear glass tumbler with \"5G\" graphic, good condition.",
+        "price": 10,
+        "sold": false
+      },
+      {
+        "name": "United States of America 250th Anniversary Mug",
+        "description": "White ceramic mug with blue handle and Washington DC 250th anniversary graphic, good condition.",
+        "price": 10,
         "sold": false
       }
     ]
@@ -880,13 +896,13 @@ window.MOVING_SALE_ITEMS = [
       {
         "name": "Adidas Originals Crossbody Bag",
         "description": "Pink Adidas Originals nylon crossbody bag, good condition.",
-        "price": 15,
+        "price": 10,
         "sold": false
       },
       {
         "name": "Woven Leather Crossbody Bag",
         "description": "Brown woven leather crossbody bag, good condition.",
-        "price": 15,
+        "price": 10,
         "sold": false
       }
     ]
@@ -914,13 +930,13 @@ window.MOVING_SALE_ITEMS = [
       {
         "name": "Pilot Bear Plush",
         "description": "Brand new tan pilot bear plush with aviator goggles, still in packaging.",
-        "price": 20,
+        "price": 10,
         "sold": false
       },
       {
         "name": "Taiwan Black Bear Mascot Plush",
         "description": "Brand new black Formosan bear plush with woven headband.",
-        "price": 20,
+        "price": 10,
         "sold": false
       }
     ]
@@ -934,6 +950,41 @@ window.MOVING_SALE_ITEMS = [
         "name": "Utopia Bedding Bed Pillows for Sleeping, Queen Size (White), Set of 2, Cooling Hotel Quality",
         "description": "Brand new set of two white queen-size cooling hotel-quality bed pillows.",
         "price": 20,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_3996.jpg",
+      "photos/IMG_3995.jpg"
+    ],
+    "objects": [
+      {
+        "name": "MUJI Ultrasonic Aroma Diffuser Humidifier (White)",
+        "description": "White ultrasonic aroma diffuser/humidifier with measuring cup, includes power adapter, good condition.",
+        "price": 10,
+        "link": "https://www.muji.us/products/ultrasonic-aroma-diffuser",
+        "sold": false
+      },
+      {
+        "name": "Kakao Friends Moodlight Humidifier (Ryan & Choonsik)",
+        "description": "Ryan & Choonsik moodlight humidifier figurine, 2-mode humidification, LED moodlight, 700ml capacity, brand new/boxed.",
+        "price": 20,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_3997.jpg",
+      "photos/IMG_3999.jpg"
+    ],
+    "objects": [
+      {
+        "name": "REI Co-op Skyward Camp Chair",
+        "description": "Orange foldable camp chair with mesh seat/back and cupholder, includes carrying bag, good condition.",
+        "price": 40,
         "sold": false
       }
     ]
