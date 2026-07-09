@@ -4,6 +4,7 @@
   const sortSelect = document.getElementById("sort");
   const hideSoldCheckbox = document.getElementById("hide-sold");
   const countEl = document.getElementById("item-count");
+  const lastUpdatedEl = document.getElementById("last-updated");
   const lightbox = document.getElementById("lightbox");
   const lightboxImg = document.getElementById("lightbox-img");
   const lightboxClose = document.getElementById("lightbox-close");
@@ -11,6 +12,19 @@
   const lightboxNext = document.getElementById("lightbox-next");
 
   const items = Array.isArray(window.MOVING_SALE_ITEMS) ? window.MOVING_SALE_ITEMS : [];
+
+  if (window.MOVING_SALE_LAST_UPDATED) {
+    const updatedDate = new Date(window.MOVING_SALE_LAST_UPDATED);
+    lastUpdatedEl.textContent =
+      "Last updated: " +
+      updatedDate.toLocaleString("en-US", {
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+        hour: "numeric",
+        minute: "2-digit",
+      });
+  }
 
   function money(n) {
     return "$" + Number(n).toLocaleString("en-US");

@@ -3,6 +3,7 @@
 // To mark a discount, add a "salePrice" field alongside "price" on an
 // object; "price" then displays as the crossed-out original and
 // "salePrice" displays as the current price.
+window.MOVING_SALE_LAST_UPDATED = "2026-07-08T17:58:00-07:00";
 window.MOVING_SALE_ITEMS = [
   {
     "images": [
@@ -384,7 +385,7 @@ window.MOVING_SALE_ITEMS = [
         "description": "White and gray XGIMI mini projector with matching remote control, shown in open hard case with foam padding, excellent condition. Includes adjustable tripod stand in a black zippered carrying bag.",
         "price": 100,
         "salePrice": 80,
-        "sold": false
+        "sold": true
       }
     ]
   },
