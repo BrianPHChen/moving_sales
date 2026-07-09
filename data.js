@@ -5,7 +5,7 @@
 // "salePrice" displays as the current price.
 // Auto-bumped by .githooks/pre-commit on every commit that touches this
 // file, along with the ?v= cache-busting query strings in index.html.
-window.MOVING_SALE_LAST_UPDATED = "2026-07-09T13:33:15-07:00";
+window.MOVING_SALE_LAST_UPDATED = "2026-07-09T15:06:40-07:00";
 window.MOVING_SALE_ITEMS = [
   {
     "images": [
@@ -18,6 +18,20 @@ window.MOVING_SALE_ITEMS = [
         "description": "Vesgantti Queen Mattress, 10 Inch Hybrid Mattress with Memory Foam & Pocket Spring, Ergonomic Design for Pressure Relief, Medium Firm Feel Mattress in a Box (60 x 80 x 10 Inches, Queen Size). Appears clean and in good used condition with no visible stains.",
         "price": 100,
         "link": "https://www.amazon.com/Vesgantti-Mattress-Hybrid-Ergonomic-Pressure/dp/B07D538WH3",
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_3895.jpg",
+      "photos/IMG_3892.jpg"
+    ],
+    "objects": [
+      {
+        "name": "Black Metal Queen Bed Base",
+        "description": "Black steel folding queen-size platform bed frame base, no mattress, sturdy wire grid support with fold-out legs, good condition.",
+        "price": 30,
         "sold": false
       }
     ]
@@ -87,20 +101,6 @@ window.MOVING_SALE_ITEMS = [
   },
   {
     "images": [
-      "photos/IMG_3895.jpg",
-      "photos/IMG_3892.jpg"
-    ],
-    "objects": [
-      {
-        "name": "Black Metal Queen Bed Base",
-        "description": "Black steel folding queen-size platform bed frame base, no mattress, sturdy wire grid support with fold-out legs, good condition.",
-        "price": 30,
-        "sold": false
-      }
-    ]
-  },
-  {
-    "images": [
       "photos/IMG_3899.jpg",
       "photos/IMG_3938.jpg"
     ],
@@ -148,7 +148,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "Over-the-Door Mirror",
         "description": "Wood-framed rectangular full-length mirror with over-the-door hooks, approximately 50 inches tall, clean glass with no visible cracks.",
         "price": 10,
-        "sold": false
+        "sold": true
       }
     ]
   },
@@ -347,9 +347,10 @@ window.MOVING_SALE_ITEMS = [
     ],
     "objects": [
       {
-        "name": "Insignia Flat-Screen TV",
-        "description": "Insignia LED TV with stand legs, screen appears in good working condition with no visible cracks.",
+        "name": "Insignia Flat-Screen TV (with Fire TV Stick)",
+        "description": "Insignia LED TV with stand legs, screen appears in good working condition with no visible cracks. Includes Fire TV Stick.",
         "price": 100,
+        "salePrice": 50,
         "size": "40in (diagonal)",
         "sold": false
       },
@@ -357,6 +358,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "White Ribbed TV Stand / Media Console",
         "description": "White wood TV console with vertical ribbed door fronts and two cabinet compartments, clean condition with minor handling wear.",
         "price": 80,
+        "salePrice": 65,
         "sold": false
       }
     ]
@@ -446,7 +448,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "WaterWipes Baby Wipes (12-Pack, 720 ct)",
         "description": "Large unopened case of sensitive newborn baby wipes, 12 packs totaling 720 wipes, new condition.",
         "price": 30,
-        "sold": false
+        "sold": true
       }
     ]
   },
