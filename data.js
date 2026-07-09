@@ -3,9 +3,9 @@
 // To mark a discount, add a "salePrice" field alongside "price" on an
 // object; "price" then displays as the crossed-out original and
 // "salePrice" displays as the current price.
-// When bumping this, also update the ?v= query string on data.js/script.js/
-// styles.css in index.html so browsers don't serve cached copies.
-window.MOVING_SALE_LAST_UPDATED = "2026-07-08T17:58:00-07:00";
+// Auto-bumped by .githooks/pre-commit on every commit that touches this
+// file, along with the ?v= cache-busting query strings in index.html.
+window.MOVING_SALE_LAST_UPDATED = "2026-07-08T22:58:30-07:00";
 window.MOVING_SALE_ITEMS = [
   {
     "images": [
