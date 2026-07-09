@@ -5,23 +5,8 @@
 // "salePrice" displays as the current price.
 // Auto-bumped by .githooks/pre-commit on every commit that touches this
 // file, along with the ?v= cache-busting query strings in index.html.
-window.MOVING_SALE_LAST_UPDATED = "2026-07-09T00:49:09-07:00";
+window.MOVING_SALE_LAST_UPDATED = "2026-07-09T13:33:15-07:00";
 window.MOVING_SALE_ITEMS = [
-  {
-    "images": [
-      "photos/IMG_2844.jpg",
-      "photos/IMG_2846.jpg"
-    ],
-    "objects": [
-      {
-        "name": "Pink Powerpuff Girls Baseball Cap",
-        "description": "Light pink adjustable baseball cap with embroidered heart-shaped Powerpuff Girls patch on front, appears new/lightly worn with no visible stains or damage.",
-        "price": 25,
-        "salePrice": 10,
-        "sold": false
-      }
-    ]
-  },
   {
     "images": [
       "photos/IMG_2977.jpg",
@@ -96,7 +81,7 @@ window.MOVING_SALE_ITEMS = [
         "description": "White metal wire A-frame laundry drying rack with multiple tiers and a few clothespins attached, foldable for storage, appears in good functional condition with no rust. One shelf is slightly loose/detached but does not affect function.",
         "price": 20,
         "salePrice": 5,
-        "sold": false
+        "sold": true
       }
     ]
   },
@@ -884,6 +869,21 @@ window.MOVING_SALE_ITEMS = [
         "name": "Disposable Dry Mop Pads",
         "description": "Pink flat mop with rotating head and extendable handle, includes extra unopened refill mop pads.",
         "price": 15,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_2844.jpg",
+      "photos/IMG_2846.jpg"
+    ],
+    "objects": [
+      {
+        "name": "Pink Powerpuff Girls Baseball Cap",
+        "description": "Light pink adjustable baseball cap with embroidered heart-shaped Powerpuff Girls patch on front, appears new/lightly worn with no visible stains or damage.",
+        "price": 25,
+        "salePrice": 10,
         "sold": false
       }
     ]
