@@ -5,7 +5,7 @@
 // "salePrice" displays as the current price.
 // Auto-bumped by .githooks/pre-commit on every commit that touches this
 // file, along with the ?v= cache-busting query strings in index.html.
-window.MOVING_SALE_LAST_UPDATED = "2026-07-09T20:26:49-07:00";
+window.MOVING_SALE_LAST_UPDATED = "2026-07-10T07:51:49-07:00";
 window.MOVING_SALE_ITEMS = [
   {
     "images": [
@@ -423,7 +423,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "Sensodyne Advanced Whitening Toothpaste (2-pack)",
         "description": "Two 6.5oz tubes of Sensodyne sensitivity toothpaste, new/unused, sold as a pair.",
         "price": 5,
-        "sold": false
+        "sold": true
       },
       {
         "name": "Bath & Body Works Mahogany Coconut Body Cream (8oz)",
@@ -475,8 +475,8 @@ window.MOVING_SALE_ITEMS = [
       {
         "name": "Tri-Fold Foam Mattress (White/Herringbone, with Carrying Case)",
         "description": "White herringbone-pattern tri-fold foldable memory foam mattress, includes a black zippered carrying case with handle, good condition.",
-        "price": 35,
-        "originalPrice": 50,
+        "price": 50,
+        "salePrice": 35,
         "link": "https://www.amazon.com/Tri-Fold-Mattress-Folding-Collapsible-Washable/dp/B0BVVY5FZV/",
         "sold": false
       }
@@ -491,7 +491,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "Philips Premium Airfryer XXL with Fat Removal Technology, HD9650/96 (3lb/7qt, Black)",
         "description": "Black Philips XXL air fryer with fat removal technology, digital touch controls, and pull-out drawer/basket, shows light use but fully functional.",
         "price": 100,
-        "sold": false
+        "sold": true
       },
       {
         "name": "Comfee Toaster Oven",
