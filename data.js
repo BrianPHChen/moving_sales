@@ -5,7 +5,7 @@
 // "salePrice" displays as the current price.
 // Auto-bumped by .githooks/pre-commit on every commit that touches this
 // file, along with the ?v= cache-busting query strings in index.html.
-window.MOVING_SALE_LAST_UPDATED = "2026-07-09T15:06:40-07:00";
+window.MOVING_SALE_LAST_UPDATED = "2026-07-09T20:26:49-07:00";
 window.MOVING_SALE_ITEMS = [
   {
     "images": [
@@ -66,7 +66,7 @@ window.MOVING_SALE_ITEMS = [
         "price": 75,
         "salePrice": 40,
         "link": "https://www.amazon.com/Dreo-Oscillating-Standing-Circulator-Adjustable/dp/B0CTCWLV35/",
-        "sold": false
+        "sold": true
       },
       {
         "name": "Lasko Oscillating Pedestal Fan",
@@ -269,7 +269,7 @@ window.MOVING_SALE_ITEMS = [
         "description": "Black and gray faux-leather racing-style gaming chair with adjustable armrests, headrest pillow, and lumbar cushion, good condition with light wear on seat bolsters.",
         "price": 50,
         "link": "https://www.amazon.com/RESPAWN-110-Pro-Gaming-Chair/dp/B09SVT8RTS",
-        "sold": false
+        "sold": true
       }
     ]
   },
