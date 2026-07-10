@@ -5,7 +5,7 @@
 // "salePrice" displays as the current price.
 // Auto-bumped by .githooks/pre-commit on every commit that touches this
 // file, along with the ?v= cache-busting query strings in index.html.
-window.MOVING_SALE_LAST_UPDATED = "2026-07-10T07:51:49-07:00";
+window.MOVING_SALE_LAST_UPDATED = "2026-07-10T13:05:42-07:00";
 window.MOVING_SALE_ITEMS = [
   {
     "images": [
@@ -18,7 +18,7 @@ window.MOVING_SALE_ITEMS = [
         "description": "Vesgantti Queen Mattress, 10 Inch Hybrid Mattress with Memory Foam & Pocket Spring, Ergonomic Design for Pressure Relief, Medium Firm Feel Mattress in a Box (60 x 80 x 10 Inches, Queen Size). Appears clean and in good used condition with no visible stains.",
         "price": 100,
         "link": "https://www.amazon.com/Vesgantti-Mattress-Hybrid-Ergonomic-Pressure/dp/B07D538WH3",
-        "sold": false
+        "sold": true
       }
     ]
   },
@@ -179,7 +179,7 @@ window.MOVING_SALE_ITEMS = [
         "price": 180,
         "originalPrice": 349.99,
         "link": "https://www.ikea.com/us/en/p/norden-gateleg-table-white-10423886/",
-        "sold": false
+        "sold": true
       }
     ]
   },
@@ -302,7 +302,7 @@ window.MOVING_SALE_ITEMS = [
         "description": "Light wood-tone electric height-adjustable standing desk with white dual-motor steel frame and control panel, good condition, approximately 55in wide.",
         "price": 120,
         "link": "https://www.amazon.com/dp/B0BZ3XN2R2",
-        "sold": false
+        "sold": true
       },
       {
         "name": "AOC Computer Monitor",
@@ -404,7 +404,7 @@ window.MOVING_SALE_ITEMS = [
         "price": 30,
         "size": "76cm x 28cm x 95cm",
         "link": "https://www.amazon.com/dp/B0B8JQJQK2",
-        "sold": false
+        "sold": true
       }
     ]
   },
@@ -462,7 +462,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "MOGULLY Tri-Fold Foam Mattress (Gray)",
         "description": "Gray fabric tri-fold foldable memory foam mattress, functions as a floor bed/guest mattress and folds up for compact storage, good condition.",
         "price": 50,
-        "sold": false
+        "sold": true
       }
     ]
   },
