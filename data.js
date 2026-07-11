@@ -5,7 +5,7 @@
 // "salePrice" displays as the current price.
 // Auto-bumped by .githooks/pre-commit on every commit that touches this
 // file, along with the ?v= cache-busting query strings in index.html.
-window.MOVING_SALE_LAST_UPDATED = "2026-07-11T10:15:23-07:00";
+window.MOVING_SALE_LAST_UPDATED = "2026-07-11T15:22:27-07:00";
 window.MOVING_SALE_ITEMS = [
   {
     "images": [
@@ -939,7 +939,7 @@ window.MOVING_SALE_ITEMS = [
         "description": "Brand new orange and white Disney red panda stuffed animal.",
         "price": 20,
         "salePrice": 15,
-        "sold": false
+        "sold": true
       },
       {
         "name": "Hallmark Teddy Bear Plush",
