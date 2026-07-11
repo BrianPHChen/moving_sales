@@ -286,6 +286,11 @@ body {
   text-decoration: line-through;
 }
 
+.free-price {
+  color: #e0004d;
+  font-size: 1.2rem;
+}
+
 .object-row.sold .object-name {
   color: var(--muted);
 }

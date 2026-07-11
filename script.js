@@ -27,7 +27,7 @@
   }
 
   function money(n) {
-    return "$" + Number(n).toLocaleString("en-US");
+    return n === 0 ? "FREE" : "$" + Number(n).toLocaleString("en-US");
   }
 
   function effectivePrice(o) {
@@ -266,6 +266,7 @@
       const price = document.createElement("div");
       price.className = "object-price";
       const effPrice = obj.salePrice != null ? obj.salePrice : obj.price;
+      if (effPrice === 0) price.classList.add("free-price");
       price.textContent = effPrice != null ? money(effPrice) : "Price TBD";
       priceWrap.appendChild(price);
 

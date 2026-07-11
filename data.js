@@ -5,7 +5,7 @@
 // "salePrice" displays as the current price.
 // Auto-bumped by .githooks/pre-commit on every commit that touches this
 // file, along with the ?v= cache-busting query strings in index.html.
-window.MOVING_SALE_LAST_UPDATED = "2026-07-11T08:19:02-07:00";
+window.MOVING_SALE_LAST_UPDATED = "2026-07-11T10:15:23-07:00";
 window.MOVING_SALE_ITEMS = [
   {
     "images": [
@@ -301,6 +301,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "White Electric Standing Desk with Additional Desk Stand and Cable Organizer",
         "description": "Light wood-tone electric height-adjustable standing desk with white dual-motor steel frame and control panel, good condition, approximately 55in wide. Includes an additional desk stand and a cable organizer.",
         "price": 120,
+        "salePrice": 95,
         "link": "https://www.amazon.com/dp/B0BZ3XN2R2",
         "sold": false
       },
@@ -308,6 +309,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "AOC Computer Monitor",
         "description": "Black AOC LED monitor (approx. 24in) on stand, good working condition with no visible screen damage.",
         "price": 30,
+        "salePrice": 20,
         "sold": false
       }
     ]
@@ -417,6 +419,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "Grow Gorgeous Intense Hair Density Serum (60ml)",
         "description": "Sealed/boxed hair density serum for fine, thinning hair, appears new and unopened.",
         "price": 20,
+        "salePrice": 10,
         "sold": false
       },
       {
@@ -435,6 +438,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "Sabon Body Lotion (Patchouli Lavender Vanilla)",
         "description": "Pump-bottle body lotion enriched with natural oils, bottle appears partially used with product visible inside.",
         "price": 15,
+        "salePrice": 10,
         "sold": false
       }
     ]
@@ -511,6 +515,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "IKEA RAST 3-Drawer Chest",
         "description": "Unfinished solid pine 3-drawer chest with round turned wood knobs, good condition with normal wear, drawers slide smoothly.",
         "price": 60,
+        "salePrice": 45,
         "sold": false
       }
     ]
@@ -600,12 +605,14 @@ window.MOVING_SALE_ITEMS = [
         "name": "Topwit Glass Electric Kettle",
         "description": "Stainless steel and glass electric kettle, functional, some mineral buildup visible from use.",
         "price": 25,
+        "salePrice": 15,
         "sold": false
       },
       {
         "name": "Chefman Glass Electric Kettle",
         "description": "Stainless steel and glass electric kettle with mesh tea infuser, functional, some mineral buildup visible from use.",
         "price": 25,
+        "salePrice": 15,
         "sold": false
       }
     ]
@@ -728,12 +735,14 @@ window.MOVING_SALE_ITEMS = [
         "name": "Stainless Steel Portable Electric Kettle (Standard Plug)",
         "description": "New/boxed green portable travel electric kettle with digital display.",
         "price": 20,
+        "salePrice": 15,
         "sold": false
       },
       {
         "name": "Stainless Steel Portable Electric Kettle (Car Plug)",
         "description": "New/boxed white portable car electric kettle with digital display.",
         "price": 20,
+        "salePrice": 15,
         "sold": false
       },
       {
@@ -759,12 +768,14 @@ window.MOVING_SALE_ITEMS = [
         "name": "Oster Personal Blender",
         "description": "Pink and white Oster personal blender with spare blending bottle, functional.",
         "price": 15,
+        "salePrice": 10,
         "sold": false
       },
       {
-        "name": "5G Glass Tumbler",
-        "description": "Clear glass tumbler with \"5G\" graphic, good condition.",
-        "price": 10,
+        "name": "5G Tumbler",
+        "description": "Clear PP plastic tumbler with \"5G\" graphic, good condition.",
+        "price": 5,
+        "salePrice": 0,
         "sold": false
       },
       {
@@ -851,15 +862,17 @@ window.MOVING_SALE_ITEMS = [
     ],
     "objects": [
       {
-        "name": "Stainless Steel Trash Can (Round)",
+        "name": "Stainless Steel Trash Can",
         "description": "Small round stainless steel step-open trash can, good condition.",
         "price": 25,
+        "salePrice": 20,
         "sold": false
       },
       {
-        "name": "Stainless Steel Trash Can (Rectangular)",
+        "name": "Stainless Steel Trash Can",
         "description": "Small rectangular stainless steel step-open trash can, good condition.",
         "price": 25,
+        "salePrice": 20,
         "sold": false
       }
     ]
@@ -870,8 +883,8 @@ window.MOVING_SALE_ITEMS = [
     ],
     "objects": [
       {
-        "name": "Disposable Dry Mop Pads",
-        "description": "Pink flat mop with rotating head and extendable handle, includes extra unopened refill mop pads.",
+        "name": "Disposable Dry Mop Pads (Refill Pack: 4 Dry, 2 Wet)",
+        "description": "Pink flat mop with rotating head and extendable handle, includes extra unopened refill mop pads (4 dry, 2 wet).",
         "price": 15,
         "sold": false
       }
@@ -901,12 +914,14 @@ window.MOVING_SALE_ITEMS = [
         "name": "Adidas Originals Crossbody Bag",
         "description": "Pink Adidas Originals nylon crossbody bag, good condition.",
         "price": 10,
+        "salePrice": 5,
         "sold": false
       },
       {
         "name": "Woven Leather Crossbody Bag",
         "description": "Brown woven leather crossbody bag, good condition.",
         "price": 10,
+        "salePrice": 0,
         "sold": false
       }
     ]
@@ -923,24 +938,28 @@ window.MOVING_SALE_ITEMS = [
         "name": "Disney Red Panda Plush",
         "description": "Brand new orange and white Disney red panda stuffed animal.",
         "price": 20,
+        "salePrice": 15,
         "sold": false
       },
       {
         "name": "Hallmark Teddy Bear Plush",
         "description": "Brand new light blue Hallmark teddy bear with satin bow.",
         "price": 20,
+        "salePrice": 15,
         "sold": false
       },
       {
         "name": "Pilot Bear Plush",
         "description": "Brand new tan pilot bear plush with aviator goggles, still in packaging.",
         "price": 10,
+        "salePrice": 5,
         "sold": false
       },
       {
         "name": "Taiwan Black Bear Mascot Plush",
         "description": "Brand new black Formosan bear plush with woven headband.",
         "price": 10,
+        "salePrice": 5,
         "sold": false
       }
     ]
@@ -951,9 +970,10 @@ window.MOVING_SALE_ITEMS = [
     ],
     "objects": [
       {
-        "name": "Utopia Bedding Bed Pillows for Sleeping, Queen Size (White), Set of 2, Cooling Hotel Quality",
+        "name": "Brand New Utopia Bedding Cooling Queen Pillows, Set of 2",
         "description": "Brand new set of two white queen-size cooling hotel-quality bed pillows.",
         "price": 20,
+        "salePrice": 15,
         "sold": false
       }
     ]
@@ -975,6 +995,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "Kakao Friends Moodlight Humidifier (Ryan & Choonsik)",
         "description": "Ryan & Choonsik moodlight humidifier figurine, 2-mode humidification, LED moodlight, 700ml capacity, brand new/boxed.",
         "price": 20,
+        "salePrice": 10,
         "sold": false
       }
     ]
