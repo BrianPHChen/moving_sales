@@ -5,7 +5,7 @@
 // "salePrice" displays as the current price.
 // Auto-bumped by .githooks/pre-commit on every commit that touches this
 // file, along with the ?v= cache-busting query strings in index.html.
-window.MOVING_SALE_LAST_UPDATED = "2026-07-10T13:05:42-07:00";
+window.MOVING_SALE_LAST_UPDATED = "2026-07-11T08:19:02-07:00";
 window.MOVING_SALE_ITEMS = [
   {
     "images": [
@@ -298,11 +298,11 @@ window.MOVING_SALE_ITEMS = [
     ],
     "objects": [
       {
-        "name": "White Electric Standing Desk",
-        "description": "Light wood-tone electric height-adjustable standing desk with white dual-motor steel frame and control panel, good condition, approximately 55in wide.",
+        "name": "White Electric Standing Desk with Additional Desk Stand and Cable Organizer",
+        "description": "Light wood-tone electric height-adjustable standing desk with white dual-motor steel frame and control panel, good condition, approximately 55in wide. Includes an additional desk stand and a cable organizer.",
         "price": 120,
         "link": "https://www.amazon.com/dp/B0BZ3XN2R2",
-        "sold": true
+        "sold": false
       },
       {
         "name": "AOC Computer Monitor",
@@ -524,6 +524,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "PARTU Air Purifier",
         "description": "Black cylindrical PARTU air purifier with adjustable fan speed, light, and lock controls, includes power adapter, fully functional.",
         "price": 20,
+        "salePrice": 10,
         "sold": false
       }
     ]
@@ -537,6 +538,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "BalanceFrom Tri-Fold Folding Exercise Mat",
         "description": "Black vinyl tri-fold gymnastics/yoga exercise mat with carrying handles, foam padded, good condition with minor surface scuffs.",
         "price": 10,
+        "salePrice": 3,
         "sold": false
       }
     ]
