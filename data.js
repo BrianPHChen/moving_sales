@@ -5,7 +5,7 @@
 // "salePrice" displays as the current price.
 // Auto-bumped by .githooks/pre-commit on every commit that touches this
 // file, along with the ?v= cache-busting query strings in index.html.
-window.MOVING_SALE_LAST_UPDATED = "2026-07-11T15:22:27-07:00";
+window.MOVING_SALE_LAST_UPDATED = "2026-07-11T23:10:42-07:00";
 window.MOVING_SALE_ITEMS = [
   {
     "images": [
@@ -193,6 +193,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "Pikler Triangle Set 7in1 Toddler Wooden Climbing Sets",
         "description": "Natural birch plywood children's rocking arch with matching ramp/slide attachment, foldable design, light assembly marks but otherwise good used condition.",
         "price": 40,
+        "salePrice": 35,
         "link": "https://www.amazon.com/dp/B0D6YMY5HG",
         "sold": false
       }
@@ -209,6 +210,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "Hape Gourmet Kitchen Toy Fully Equipped Wooden Pretend Play Kitchen Set with Sink, Stove, Baking Oven, Cabinet, Turnable Knobs & Spice Shelf, Red",
         "description": "Hape brand toy kitchen with stovetop, oven, sink, faucet, and utensil rail in white and natural wood finish, approximately 28 inches tall, clean with no major damage.",
         "price": 35,
+        "salePrice": 25,
         "link": "https://www.amazon.com/Hape-Gourmet-Kitchen-Equipped-Turnable/dp/B074PXWGDN",
         "sold": false
       }
@@ -254,7 +256,7 @@ window.MOVING_SALE_ITEMS = [
         "description": "Two nested clear plastic stacking storage drawers/bins shown together, good used condition, sold as a set for closet or desk organization.",
         "price": 5,
         "size": "25cm x 35cm x 13.5cm",
-        "sold": false
+        "sold": true
       }
     ]
   },
@@ -285,6 +287,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "Zinus Josh Sofa Couch, Easy Tool-Free Assembly, Beige",
         "description": "Light gray/beige linen-look fabric sofa with rolled arms and two seat cushions, overall good condition with minor fading, standard 3-seat size. Includes tan diamond-quilted couch protector cover.",
         "price": 120,
+        "salePrice": 100,
         "originalPrice": 425,
         "link": "https://www.amazon.com/ZINUS-Couch-Tool-Free-Assembly-Beige/dp/B07GGF5RFF/",
         "sold": false
@@ -627,21 +630,21 @@ window.MOVING_SALE_ITEMS = [
         "description": "Clear plastic airtight storage container with flip-lock lid, good condition.",
         "price": 20,
         "size": "15cm x 15cm x 24cm",
-        "sold": false
+        "sold": true
       },
       {
         "name": "OXO POP Airtight Food Storage Container",
         "description": "Clear plastic airtight storage container with push-button lid, good condition.",
         "price": 20,
         "size": "10cm x 15cm x 24cm",
-        "sold": false
+        "sold": true
       },
       {
         "name": "Storage Container",
         "description": "Clear plastic airtight storage container with push-button lid, good condition, currently holds rice.",
         "price": 20,
         "size": "10cm x 17cm x 31cm",
-        "sold": false
+        "sold": true
       }
     ]
   },
@@ -654,7 +657,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "Hamilton Beach Food Processor",
         "description": "Black and clear Hamilton Beach food processor with chop/mix/puree and slice/shred functions, includes attachments, fully functional.",
         "price": 25,
-        "sold": false
+        "sold": true
       }
     ]
   },
