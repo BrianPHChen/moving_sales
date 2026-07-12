@@ -5,7 +5,7 @@
 // "salePrice" displays as the current price.
 // Auto-bumped by .githooks/pre-commit on every commit that touches this
 // file, along with the ?v= cache-busting query strings in index.html.
-window.MOVING_SALE_LAST_UPDATED = "2026-07-12T08:09:41-07:00";
+window.MOVING_SALE_LAST_UPDATED = "2026-07-12T14:04:23-07:00";
 window.MOVING_SALE_ITEMS = [
   {
     "images": [
@@ -109,7 +109,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "Modern LED Floor Lamp with Remote (Round Head)",
         "description": "Black metal torchiere-style floor lamp with a round dimmable LED disc head and remote control, roughly 65 inches tall, appears in good working condition.",
         "price": 25,
-        "sold": false
+        "sold": true
       },
       {
         "name": "5-Head Gooseneck Floor Lamp",
@@ -306,7 +306,7 @@ window.MOVING_SALE_ITEMS = [
         "price": 120,
         "salePrice": 95,
         "link": "https://www.amazon.com/dp/B0BZ3XN2R2",
-        "sold": false
+        "sold": true
       },
       {
         "name": "AOC Computer Monitor",
@@ -869,14 +869,14 @@ window.MOVING_SALE_ITEMS = [
         "description": "Small round stainless steel step-open trash can, good condition.",
         "price": 25,
         "salePrice": 20,
-        "sold": false
+        "sold": true
       },
       {
         "name": "Stainless Steel Trash Can",
         "description": "Small rectangular stainless steel step-open trash can, good condition.",
         "price": 25,
         "salePrice": 20,
-        "sold": false
+        "sold": true
       }
     ]
   },
@@ -1036,8 +1036,8 @@ window.MOVING_SALE_ITEMS = [
     ],
     "objects": [
       {
-        "name": "Bounce Mega Sheets Dryer Sheets, Paradise Blossom",
-        "description": "Two sealed multi-pack boxes of Bounce Mega Sheets dryer sheets, 130 sheets each, brand new/unopened.",
+        "name": "Bounce Mega Sheets Dryer Sheets, Paradise Blossom ($5/box, 2 Available)",
+        "description": "Sealed multi-pack boxes of Bounce Mega Sheets dryer sheets, 130 sheets each, brand new/unopened. $5 per box.",
         "price": 5,
         "sold": false
       },
@@ -1050,7 +1050,7 @@ window.MOVING_SALE_ITEMS = [
       {
         "name": "Handy Laundry Wool Dryer Balls (Set of 4)",
         "description": "100% New Zealand wool reusable dryer balls with cloth storage bag, brand new/unused.",
-        "price": 10,
+        "price": 2,
         "sold": false
       }
     ]
@@ -1103,7 +1103,7 @@ window.MOVING_SALE_ITEMS = [
       {
         "name": "Mustela Cicastela & Vitamin Barrier Cream (Set of 2)",
         "description": "Sealed Mustela baby skin care set: Cicastela Skin Discomfort Cream (40ml) and Vitamin Barrier Cream, both brand new/unopened, made with natural-origin ingredients.",
-        "price": 10,
+        "price": 5,
         "sold": false
       }
     ]
@@ -1142,7 +1142,7 @@ window.MOVING_SALE_ITEMS = [
       {
         "name": "Ajinomoto Hondashi Bonito Soup Stock (192g, 24 Packets)",
         "description": "Japanese import Ajinomoto Hondashi bonito-flavor soup stock, individually wrapped packets, brand new/sealed.",
-        "price": 10,
+        "price": 5,
         "sold": false
       }
     ]
@@ -1231,7 +1231,7 @@ window.MOVING_SALE_ITEMS = [
       {
         "name": "Kong Yen Rice Vinegar (600ml)",
         "description": "Genuine brewed Taiwanese rice vinegar, sealed/unopened, 20.2 fl oz.",
-        "price": 5,
+        "price": 2,
         "sold": false
       }
     ]
