@@ -5,7 +5,7 @@
 // "salePrice" displays as the current price.
 // Auto-bumped by .githooks/pre-commit on every commit that touches this
 // file, along with the ?v= cache-busting query strings in index.html.
-window.MOVING_SALE_LAST_UPDATED = "2026-07-11T23:10:42-07:00";
+window.MOVING_SALE_LAST_UPDATED = "2026-07-12T00:40:18-07:00";
 window.MOVING_SALE_ITEMS = [
   {
     "images": [
@@ -1013,6 +1013,255 @@ window.MOVING_SALE_ITEMS = [
         "name": "REI Co-op Skyward Camp Chair",
         "description": "Orange foldable camp chair with mesh seat/back and cupholder, includes carrying bag, good condition.",
         "price": 40,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_4007.jpg"
+    ],
+    "objects": [
+      {
+        "name": "Teal Potty Training Seat",
+        "description": "Teal blue freestanding potty training seat with cream removable insert bowl and side handles, good used condition.",
+        "price": 5,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_4011.jpg"
+    ],
+    "objects": [
+      {
+        "name": "Bounce Mega Sheets Dryer Sheets, Paradise Blossom",
+        "description": "Two sealed multi-pack boxes of Bounce Mega Sheets dryer sheets, 130 sheets each, brand new/unopened.",
+        "price": 5,
+        "sold": false
+      },
+      {
+        "name": "Lenor Aroma Jewel Fabric Softener Bundle (Refill Beads + Perfume Bottle)",
+        "description": "Japanese import Lenor Aroma Jewel scent booster bundle: in-wash refill beads pouch (Black, 1040ml) and perfume fabric softener bottle (Blooming Blossom, 420ml), both brand new/sealed.",
+        "price": 10,
+        "sold": false
+      },
+      {
+        "name": "Handy Laundry Wool Dryer Balls (Set of 4)",
+        "description": "100% New Zealand wool reusable dryer balls with cloth storage bag, brand new/unused.",
+        "price": 10,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_4034.jpg"
+    ],
+    "objects": [
+      {
+        "name": "Aroma 3-in-1 Grillet Indoor Electric Grill",
+        "description": "Aroma 3-in-1 grill/simmer/steam electric grillet with cast aluminum non-stick pot, glass lid, and removable temperature control probe, 3-quart capacity, includes original box.",
+        "price": 10,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_4035.jpg"
+    ],
+    "objects": [
+      {
+        "name": "Oral-B Sensitive Clean Replacement Brush Heads (3x 6-Packs)",
+        "description": "Three sealed XL packs (6 heads each, 18 total) of Oral-B Sensitive Clean & Care ultra-thin bristle electric toothbrush replacement heads, brand new/unopened.",
+        "price": 10,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_4036.jpg"
+    ],
+    "objects": [
+      {
+        "name": "EDISON mama Baby Food Scissors (Made in Japan)",
+        "description": "Stainless steel baby food cutting scissors with protective case and easy-grip handles, designed for cutting meat and vegetables, brand new/sealed.",
+        "price": 10,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_4037.jpg",
+      "photos/IMG_4038.jpg"
+    ],
+    "objects": [
+      {
+        "name": "Mustela Cicastela & Vitamin Barrier Cream (Set of 2)",
+        "description": "Sealed Mustela baby skin care set: Cicastela Skin Discomfort Cream (40ml) and Vitamin Barrier Cream, both brand new/unopened, made with natural-origin ingredients.",
+        "price": 10,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_4039.jpg"
+    ],
+    "objects": [
+      {
+        "name": "L'Occitane en Provence Verveine Travel Gift Set (Set of 2)",
+        "description": "Two L'Occitane Verveine travel sets, each including a shea butter soap plus mini shampoo, body lotion, and shower gel (30ml each), brand new/sealed in organza bags. Sold together.",
+        "price": 10,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_4040.jpg",
+      "photos/IMG_4041.jpg"
+    ],
+    "objects": [
+      {
+        "name": "Jojoen Yakiniku BBQ Sauce (Set of 2, 240g each)",
+        "description": "Japanese import Jojoen-brand yakiniku (Korean BBQ) marinade sauce, brand new/sealed.",
+        "price": 10,
+        "sold": false
+      },
+      {
+        "name": "Spicy Scallop Sauce (Set of 2)",
+        "description": "Taiwanese scallop sauce, spicy flavor, brand new/sealed.",
+        "price": 10,
+        "sold": false
+      },
+      {
+        "name": "Ajinomoto Hondashi Bonito Soup Stock (192g, 24 Packets)",
+        "description": "Japanese import Ajinomoto Hondashi bonito-flavor soup stock, individually wrapped packets, brand new/sealed.",
+        "price": 10,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_4042.jpg",
+      "photos/IMG_4043.jpg"
+    ],
+    "objects": [
+      {
+        "name": "YONGJIA Foldable Bedside Shelf, Bunk Bed Tray (White)",
+        "description": "Foldable nightstand/bunk bed tray with adjustable bed-frame clamps and multiple compartments for books, phone, Kindle, and water cup. Ideal for top bunk, college, dorm, or kids' bedroom. Good condition.",
+        "price": 10,
+        "originalPrice": 25,
+        "link": "https://www.amazon.com/dp/B0BZRB62R6?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_3",
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_4044.jpg"
+    ],
+    "objects": [
+      {
+        "name": "Kids Bag Bundle (Toy-Inside Backpack + Crossbody Bag)",
+        "description": "Blue kids backpack with woven straps (new/sealed in packaging, includes a plush toy inside) and a mustard yellow canvas crossbody bag with front snap pocket and adjustable strap, sold together.",
+        "price": 2,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_4045.jpg",
+      "photos/IMG_4046.jpg"
+    ],
+    "objects": [
+      {
+        "name": "Dr. Brown's Milestones Sippy Cup (Leopard Print, Pink)",
+        "description": "Pink Dr. Brown's sippy cup with leopard/cheetah graphic design, BPA-free (PP plastic), includes matching lid, good condition.",
+        "price": 5,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_4049.jpg"
+    ],
+    "objects": [
+      {
+        "name": "Pearl Drop Clip-On Earrings (Gold-Tone)",
+        "description": "Gold-tone clip-on earrings with pearl and rhinestone drop detail, brand new/sealed.",
+        "price": 2,
+        "sold": false
+      },
+      {
+        "name": "Korean Air-Volume Hair Rollers Set",
+        "description": "Self-gripping double-layer hair rollers for natural volume curls, brand new/sealed.",
+        "price": 2,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_4051.jpg",
+      "photos/IMG_4052.jpg"
+    ],
+    "objects": [
+      {
+        "name": "White Barn Mahogany Teakwood 3-Wick Candle",
+        "description": "Bath & Body Works White Barn Mahogany Teakwood scented 3-wick candle, lightly used with most of the wax remaining.",
+        "price": 5,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_4053.jpg"
+    ],
+    "objects": [
+      {
+        "name": "Kong Yen Rice Vinegar (600ml)",
+        "description": "Genuine brewed Taiwanese rice vinegar, sealed/unopened, 20.2 fl oz.",
+        "price": 5,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_4054.jpg",
+      "photos/IMG_4055.jpg"
+    ],
+    "objects": [
+      {
+        "name": "FIFINE AmpliGame AM8 Dynamic USB/XLR Microphone",
+        "description": "FIFINE AM8 dynamic microphone for streaming/podcasting with USB and XLR connectivity, RGB lighting, and desktop stand, brand new/boxed with all accessories.",
+        "price": 20,
+        "originalPrice": 56.99,
+        "link": "https://www.amazon.com/dp/B0BMFQP2ZZ?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_3&th=1",
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_4056.jpg"
+    ],
+    "objects": [
+      {
+        "name": "Humble Crew 4-Tier Kids Bookshelf, Natural Wood/White",
+        "description": "Premium book shelf for kids rooms with four deep pockets, toddler sling book rack with deep sleeves, nursery bookcase organizer. Books shown are not included.",
+        "price": 15,
+        "originalPrice": 30,
         "sold": false
       }
     ]
