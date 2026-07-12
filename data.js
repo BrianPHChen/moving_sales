@@ -5,7 +5,7 @@
 // "salePrice" displays as the current price.
 // Auto-bumped by .githooks/pre-commit on every commit that touches this
 // file, along with the ?v= cache-busting query strings in index.html.
-window.MOVING_SALE_LAST_UPDATED = "2026-07-12T14:04:23-07:00";
+window.MOVING_SALE_LAST_UPDATED = "2026-07-12T15:44:30-07:00";
 window.MOVING_SALE_ITEMS = [
   {
     "images": [
@@ -1117,7 +1117,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "L'Occitane en Provence Verveine Travel Gift Set (Set of 2)",
         "description": "Two L'Occitane Verveine travel sets, each including a shea butter soap plus mini shampoo, body lotion, and shower gel (30ml each), brand new/sealed in organza bags. Sold together.",
         "price": 10,
-        "sold": false
+        "sold": true
       }
     ]
   },
@@ -1131,19 +1131,19 @@ window.MOVING_SALE_ITEMS = [
         "name": "Jojoen Yakiniku BBQ Sauce (Set of 2, 240g each)",
         "description": "Japanese import Jojoen-brand yakiniku (Korean BBQ) marinade sauce, brand new/sealed.",
         "price": 10,
-        "sold": false
+        "sold": true
       },
       {
         "name": "Spicy Scallop Sauce (Set of 2)",
         "description": "Taiwanese scallop sauce, spicy flavor, brand new/sealed.",
         "price": 10,
-        "sold": false
+        "sold": true
       },
       {
         "name": "Ajinomoto Hondashi Bonito Soup Stock (192g, 24 Packets)",
         "description": "Japanese import Ajinomoto Hondashi bonito-flavor soup stock, individually wrapped packets, brand new/sealed.",
         "price": 5,
-        "sold": false
+        "sold": true
       }
     ]
   },
@@ -1205,7 +1205,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "Korean Air-Volume Hair Rollers Set",
         "description": "Self-gripping double-layer hair rollers for natural volume curls, brand new/sealed.",
         "price": 2,
-        "sold": false
+        "sold": true
       }
     ]
   },
@@ -1232,7 +1232,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "Kong Yen Rice Vinegar (600ml)",
         "description": "Genuine brewed Taiwanese rice vinegar, sealed/unopened, 20.2 fl oz.",
         "price": 2,
-        "sold": false
+        "sold": true
       }
     ]
   },
