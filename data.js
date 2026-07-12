@@ -5,7 +5,7 @@
 // "salePrice" displays as the current price.
 // Auto-bumped by .githooks/pre-commit on every commit that touches this
 // file, along with the ?v= cache-busting query strings in index.html.
-window.MOVING_SALE_LAST_UPDATED = "2026-07-12T00:40:18-07:00";
+window.MOVING_SALE_LAST_UPDATED = "2026-07-12T08:09:41-07:00";
 window.MOVING_SALE_ITEMS = [
   {
     "images": [
