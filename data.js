@@ -5,7 +5,7 @@
 // "salePrice" displays as the current price.
 // Auto-bumped by .githooks/pre-commit on every commit that touches this
 // file, along with the ?v= cache-busting query strings in index.html.
-window.MOVING_SALE_LAST_UPDATED = "2026-07-12T15:44:30-07:00";
+window.MOVING_SALE_LAST_UPDATED = "2026-07-13T15:57:41-07:00";
 window.MOVING_SALE_ITEMS = [
   {
     "images": [
@@ -1262,6 +1262,95 @@ window.MOVING_SALE_ITEMS = [
         "description": "Premium book shelf for kids rooms with four deep pockets, toddler sling book rack with deep sleeves, nursery bookcase organizer. Books shown are not included.",
         "price": 15,
         "originalPrice": 30,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_8728.jpg"
+    ],
+    "objects": [
+      {
+        "name": "FunBoy x Bark Barkin' Blue Rocket Sled",
+        "description": "Luxury oversized inflatable snow sled, brand new/sealed in box.",
+        "price": 20,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_8729.jpg"
+    ],
+    "objects": [
+      {
+        "name": "Active Dishwasher Cleaner (24 Tablets)",
+        "description": "1-year supply dishwasher cleaning tablets, compatible with all dishwashers, brand new/sealed box.",
+        "price": 2,
+        "sold": false
+      },
+      {
+        "name": "Terro Liquid Ant Killer Baits (12 Stations)",
+        "description": "Pre-filled, ready-to-use liquid ant bait stations, brand new/sealed box.",
+        "price": 2,
+        "sold": false
+      },
+      {
+        "name": "Affresh Disposal Cleaner (3 Tablets)",
+        "description": "Garbage disposal cleaning tablets, citrus scent, brand new/sealed box.",
+        "price": 2,
+        "sold": false
+      },
+      {
+        "name": "Flexible Drain Clog Remover / Hair Removal Tool (3-Pack, 25\")",
+        "description": "Flexible barbed stick for kitchen sink or bathroom tub drains, used to hook and pull out hair clogs. Brand new/sealed, 3-pack.",
+        "price": 2,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_8730.jpg"
+    ],
+    "objects": [
+      {
+        "name": "Linen Avenue Bliss Blanket (Twin, Canary Yellow)",
+        "description": "Soft plush blanket, Twin size 66 x 90 inches, 100% polyester, machine washable, brand new in packaging.",
+        "price": 5,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_8731.jpg"
+    ],
+    "objects": [
+      {
+        "name": "Glass Pot Lid (12.5\" Diameter)",
+        "description": "Tempered glass lid with stainless steel rim and black knob handle, 12.5 inch diameter, good condition.",
+        "price": 2,
+        "sold": false
+      },
+      {
+        "name": "Glass Flower Vase",
+        "description": "Clear glass flower vase, good condition.",
+        "price": 2,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_8732.jpg"
+    ],
+    "objects": [
+      {
+        "name": "Sport-Brella Verso-brella XL Oversized All-Position Umbrella",
+        "description": "Oversized 43 x 44 inch all-position umbrella with universal clamp, SPF 50+, adjustable to 360°, brand new in bag.",
+        "price": 15,
         "sold": false
       }
     ]
