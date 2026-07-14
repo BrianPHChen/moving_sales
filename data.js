@@ -5,7 +5,7 @@
 // "salePrice" displays as the current price.
 // Auto-bumped by .githooks/pre-commit on every commit that touches this
 // file, along with the ?v= cache-busting query strings in index.html.
-window.MOVING_SALE_LAST_UPDATED = "2026-07-13T15:57:41-07:00";
+window.MOVING_SALE_LAST_UPDATED = "2026-07-13T17:51:00-07:00";
 window.MOVING_SALE_ITEMS = [
   {
     "images": [
@@ -115,13 +115,13 @@ window.MOVING_SALE_ITEMS = [
         "name": "5-Head Gooseneck Floor Lamp",
         "description": "Silver/brushed nickel floor lamp with five adjustable gooseneck arms and frosted cone-shaped shades, roughly 70 inches tall, all bulbs functional, minor cosmetic wear on base.",
         "price": 10,
-        "sold": false
+        "sold": true
       },
       {
         "name": "Black Torchiere Floor Lamp",
         "description": "Single-bulb black metal floor lamp with frosted cone-shaped glass shade, clean and fully functional.",
         "price": 10,
-        "sold": false
+        "sold": true
       }
     ]
   },
@@ -394,7 +394,7 @@ window.MOVING_SALE_ITEMS = [
         "price": 170,
         "salePrice": 80,
         "link": "https://www.amazon.com/dp/B0BKZTZM19",
-        "sold": false
+        "sold": true
       }
     ]
   },
@@ -485,7 +485,7 @@ window.MOVING_SALE_ITEMS = [
         "price": 50,
         "salePrice": 35,
         "link": "https://www.amazon.com/Tri-Fold-Mattress-Folding-Collapsible-Washable/dp/B0BVVY5FZV/",
-        "sold": false
+        "sold": true
       }
     ]
   },
@@ -836,7 +836,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "Chinet Cut Crystal Plastic Cups (150-Count)",
         "description": "Unopened bag of Chinet Cut Crystal disposable plastic cups, 10oz, 150 count.",
         "price": 5,
-        "sold": false
+        "sold": true
       }
     ]
   },
@@ -977,7 +977,7 @@ window.MOVING_SALE_ITEMS = [
         "description": "Brand new set of two white queen-size cooling hotel-quality bed pillows.",
         "price": 20,
         "salePrice": 15,
-        "sold": false
+        "sold": true
       }
     ]
   },
@@ -1039,7 +1039,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "Bounce Mega Sheets Dryer Sheets, Paradise Blossom ($5/box, 2 Available)",
         "description": "Sealed multi-pack boxes of Bounce Mega Sheets dryer sheets, 130 sheets each, brand new/unopened. $5 per box.",
         "price": 5,
-        "sold": false
+        "sold": true
       },
       {
         "name": "Lenor Aroma Jewel Fabric Softener Bundle (Refill Beads + Perfume Bottle)",
@@ -1051,7 +1051,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "Handy Laundry Wool Dryer Balls (Set of 4)",
         "description": "100% New Zealand wool reusable dryer balls with cloth storage bag, brand new/unused.",
         "price": 2,
-        "sold": false
+        "sold": true
       }
     ]
   },
@@ -1219,7 +1219,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "White Barn Mahogany Teakwood 3-Wick Candle",
         "description": "Bath & Body Works White Barn Mahogany Teakwood scented 3-wick candle, lightly used with most of the wax remaining.",
         "price": 5,
-        "sold": false
+        "sold": true
       }
     ]
   },
@@ -1248,7 +1248,7 @@ window.MOVING_SALE_ITEMS = [
         "price": 20,
         "originalPrice": 56.99,
         "link": "https://www.amazon.com/dp/B0BMFQP2ZZ?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_3&th=1",
-        "sold": false
+        "sold": true
       }
     ]
   },
