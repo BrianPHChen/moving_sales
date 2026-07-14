@@ -105,7 +105,7 @@
       empty.textContent = "No items match your search.";
       gallery.appendChild(empty);
     } else {
-      visible.forEach((item) => gallery.appendChild(renderCard(item)));
+      visible.forEach((item) => gallery.appendChild(renderCard(item, hideSold)));
       setupDescToggles();
     }
 
@@ -123,9 +123,12 @@
       " sold)";
   }
 
-  function renderCard(item) {
+  function renderCard(item, hideSold) {
     const card = document.createElement("div");
     card.className = "card";
+    const visibleObjects = hideSold
+      ? item.objects.filter((o) => !o.sold)
+      : item.objects;
     const alt = item.objects.map((o) => o.name).join(", ");
 
     const photoWrap = document.createElement("div");
@@ -188,7 +191,7 @@
     const body = document.createElement("div");
     body.className = "card-body";
 
-    item.objects.forEach((obj) => {
+    visibleObjects.forEach((obj) => {
       const row = document.createElement("div");
       row.className = "object-row" + (obj.sold ? " sold" : "");
 

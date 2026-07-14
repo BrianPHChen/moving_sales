@@ -5,7 +5,7 @@
 // "salePrice" displays as the current price.
 // Auto-bumped by .githooks/pre-commit on every commit that touches this
 // file, along with the ?v= cache-busting query strings in index.html.
-window.MOVING_SALE_LAST_UPDATED = "2026-07-13T17:51:00-07:00";
+window.MOVING_SALE_LAST_UPDATED = "2026-07-14T00:02:51-07:00";
 window.MOVING_SALE_ITEMS = [
   {
     "images": [
@@ -1351,6 +1351,20 @@ window.MOVING_SALE_ITEMS = [
         "name": "Sport-Brella Verso-brella XL Oversized All-Position Umbrella",
         "description": "Oversized 43 x 44 inch all-position umbrella with universal clamp, SPF 50+, adjustable to 360°, brand new in bag.",
         "price": 15,
+        "sold": false
+      }
+    ]
+  },
+  {
+    "images": [
+      "photos/IMG_8735.jpg",
+      "photos/IMG_8736.jpg"
+    ],
+    "objects": [
+      {
+        "name": "Pampers Cruisers 360 Diapers, Size 6 (104 Count)",
+        "description": "Brand new, unopened inner bags of Pampers Cruisers 360 diapers, Size 6 (35+ lb), 104 count. Outer shipping box was opened and has some cosmetic damage, but diapers themselves are sealed/unused.",
+        "price": 35,
         "sold": false
       }
     ]
