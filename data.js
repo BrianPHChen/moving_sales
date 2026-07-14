@@ -5,7 +5,7 @@
 // "salePrice" displays as the current price.
 // Auto-bumped by .githooks/pre-commit on every commit that touches this
 // file, along with the ?v= cache-busting query strings in index.html.
-window.MOVING_SALE_LAST_UPDATED = "2026-07-14T00:02:51-07:00";
+window.MOVING_SALE_LAST_UPDATED = "2026-07-14T10:04:42-07:00";
 window.MOVING_SALE_ITEMS = [
   {
     "images": [
@@ -313,7 +313,7 @@ window.MOVING_SALE_ITEMS = [
         "description": "Black AOC LED monitor (approx. 24in) on stand, good working condition with no visible screen damage.",
         "price": 30,
         "salePrice": 20,
-        "sold": false
+        "sold": true
       }
     ]
   },
@@ -533,7 +533,7 @@ window.MOVING_SALE_ITEMS = [
         "description": "Black cylindrical PARTU air purifier with adjustable fan speed, light, and lock controls, includes power adapter, fully functional.",
         "price": 20,
         "salePrice": 10,
-        "sold": false
+        "sold": true
       }
     ]
   },
