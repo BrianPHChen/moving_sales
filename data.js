@@ -5,7 +5,7 @@
 // "salePrice" displays as the current price.
 // Auto-bumped by .githooks/pre-commit on every commit that touches this
 // file, along with the ?v= cache-busting query strings in index.html.
-window.MOVING_SALE_LAST_UPDATED = "2026-07-14T17:49:05-07:00";
+window.MOVING_SALE_LAST_UPDATED = "2026-07-14T20:30:51-07:00";
 window.MOVING_SALE_ITEMS = [
   {
     "images": [
@@ -616,7 +616,7 @@ window.MOVING_SALE_ITEMS = [
         "description": "Stainless steel and glass electric kettle with mesh tea infuser, functional, some mineral buildup visible from use.",
         "price": 25,
         "salePrice": 15,
-        "sold": false
+        "sold": true
       }
     ]
   },
@@ -1199,7 +1199,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "Pearl Drop Clip-On Earrings (Gold-Tone)",
         "description": "Gold-tone clip-on earrings with pearl and rhinestone drop detail, brand new/sealed.",
         "price": 2,
-        "sold": false
+        "sold": true
       },
       {
         "name": "Korean Air-Volume Hair Rollers Set",
@@ -1288,7 +1288,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "Active Dishwasher Cleaner (24 Tablets)",
         "description": "1-year supply dishwasher cleaning tablets, compatible with all dishwashers, brand new/sealed box.",
         "price": 2,
-        "sold": false
+        "sold": true
       },
       {
         "name": "Terro Liquid Ant Killer Baits (12 Stations)",
@@ -1300,13 +1300,13 @@ window.MOVING_SALE_ITEMS = [
         "name": "Affresh Disposal Cleaner (3 Tablets)",
         "description": "Garbage disposal cleaning tablets, citrus scent, brand new/sealed box.",
         "price": 2,
-        "sold": false
+        "sold": true
       },
       {
         "name": "Flexible Drain Clog Remover / Hair Removal Tool (3-Pack, 25\")",
         "description": "Flexible barbed stick for kitchen sink or bathroom tub drains, used to hook and pull out hair clogs. Brand new/sealed, 3-pack.",
         "price": 2,
-        "sold": false
+        "sold": true
       }
     ]
   },
