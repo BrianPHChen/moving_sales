@@ -5,7 +5,7 @@
 // "salePrice" displays as the current price.
 // Auto-bumped by .githooks/pre-commit on every commit that touches this
 // file, along with the ?v= cache-busting query strings in index.html.
-window.MOVING_SALE_LAST_UPDATED = "2026-07-14T10:04:42-07:00";
+window.MOVING_SALE_LAST_UPDATED = "2026-07-14T17:49:05-07:00";
 window.MOVING_SALE_ITEMS = [
   {
     "images": [
@@ -227,7 +227,7 @@ window.MOVING_SALE_ITEMS = [
         "description": "White laminate 3-drawer chest with cutout pulls, approximately 24in wide x 18in deep x 30in tall, clean finish with minimal wear and smooth-operating drawers. Two available, sold together.",
         "price": 75,
         "size": "60cm x 40cm x 82cm",
-        "sold": false
+        "sold": true
       }
     ]
   },
@@ -357,7 +357,7 @@ window.MOVING_SALE_ITEMS = [
         "price": 100,
         "salePrice": 50,
         "size": "40in (diagonal)",
-        "sold": false
+        "sold": true
       },
       {
         "name": "White Ribbed TV Stand / Media Console",
@@ -589,7 +589,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "321 STRONG Foam Roller",
         "description": "Black textured foam massage roller, good condition.",
         "price": 5,
-        "sold": false
+        "sold": true
       },
       {
         "name": "Lacrosse-Style Massage Ball",
@@ -707,7 +707,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "Woven Storage Basket",
         "description": "Woven basket with blue-trimmed handle, good condition.",
         "price": 5,
-        "sold": false
+        "sold": true
       },
       {
         "name": "Microwave Steamer Container",
@@ -785,7 +785,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "United States of America 250th Anniversary Mug",
         "description": "White ceramic mug with blue handle and Washington DC 250th anniversary graphic, good condition.",
         "price": 10,
-        "sold": false
+        "sold": true
       }
     ]
   },
@@ -1294,7 +1294,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "Terro Liquid Ant Killer Baits (12 Stations)",
         "description": "Pre-filled, ready-to-use liquid ant bait stations, brand new/sealed box.",
         "price": 2,
-        "sold": false
+        "sold": true
       },
       {
         "name": "Affresh Disposal Cleaner (3 Tablets)",
