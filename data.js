@@ -5,7 +5,7 @@
 // "salePrice" displays as the current price.
 // Auto-bumped by .githooks/pre-commit on every commit that touches this
 // file, along with the ?v= cache-busting query strings in index.html.
-window.MOVING_SALE_LAST_UPDATED = "2026-07-14T20:30:51-07:00";
+window.MOVING_SALE_LAST_UPDATED = "2026-07-15T18:54:27-07:00";
 window.MOVING_SALE_ITEMS = [
   {
     "images": [
@@ -32,7 +32,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "Black Metal Queen Bed Base",
         "description": "Black steel folding queen-size platform bed frame base, no mattress, sturdy wire grid support with fold-out legs, good condition.",
         "price": 30,
-        "sold": false
+        "sold": true
       }
     ]
   },
@@ -518,7 +518,6 @@ window.MOVING_SALE_ITEMS = [
         "name": "IKEA RAST 3-Drawer Chest",
         "description": "Unfinished solid pine 3-drawer chest with round turned wood knobs, good condition with normal wear, drawers slide smoothly.",
         "price": 60,
-        "salePrice": 45,
         "sold": false
       }
     ]
@@ -1365,7 +1364,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "Pampers Cruisers 360 Diapers, Size 6 (104 Count)",
         "description": "Brand new, unopened inner bags of Pampers Cruisers 360 diapers, Size 6 (35+ lb), 104 count. Outer shipping box was opened and has some cosmetic damage, but diapers themselves are sealed/unused.",
         "price": 35,
-        "sold": false
+        "sold": true
       }
     ]
   }
