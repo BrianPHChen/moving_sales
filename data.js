@@ -5,7 +5,7 @@
 // "salePrice" displays as the current price.
 // Auto-bumped by .githooks/pre-commit on every commit that touches this
 // file, along with the ?v= cache-busting query strings in index.html.
-window.MOVING_SALE_LAST_UPDATED = "2026-07-15T18:54:27-07:00";
+window.MOVING_SALE_LAST_UPDATED = "2026-07-17T12:43:16-07:00";
 window.MOVING_SALE_ITEMS = [
   {
     "images": [
@@ -363,7 +363,6 @@ window.MOVING_SALE_ITEMS = [
         "name": "White Ribbed TV Stand / Media Console",
         "description": "White wood TV console with vertical ribbed door fronts and two cabinet compartments, clean condition with minor handling wear.",
         "price": 80,
-        "salePrice": 65,
         "sold": false
       }
     ]
@@ -518,7 +517,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "IKEA RAST 3-Drawer Chest",
         "description": "Unfinished solid pine 3-drawer chest with round turned wood knobs, good condition with normal wear, drawers slide smoothly.",
         "price": 60,
-        "sold": false
+        "sold": true
       }
     ]
   },
