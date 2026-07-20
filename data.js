@@ -5,7 +5,7 @@
 // "salePrice" displays as the current price.
 // Auto-bumped by .githooks/pre-commit on every commit that touches this
 // file, along with the ?v= cache-busting query strings in index.html.
-window.MOVING_SALE_LAST_UPDATED = "2026-07-17T12:43:16-07:00";
+window.MOVING_SALE_LAST_UPDATED = "2026-07-19T23:07:23-07:00";
 window.MOVING_SALE_ITEMS = [
   {
     "images": [
@@ -163,7 +163,7 @@ window.MOVING_SALE_ITEMS = [
         "price": 35,
         "originalPrice": 229,
         "link": "https://www.ikea.com/us/en/p/poaeng-armchair-and-ottoman-birch-veneer-knisa-light-beige-s89484235/",
-        "sold": false
+        "sold": true
       }
     ]
   },
@@ -290,7 +290,7 @@ window.MOVING_SALE_ITEMS = [
         "salePrice": 100,
         "originalPrice": 425,
         "link": "https://www.amazon.com/ZINUS-Couch-Tool-Free-Assembly-Beige/dp/B07GGF5RFF/",
-        "sold": false
+        "sold": true
       }
     ]
   },
