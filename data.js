@@ -5,7 +5,7 @@
 // "salePrice" displays as the current price.
 // Auto-bumped by .githooks/pre-commit on every commit that touches this
 // file, along with the ?v= cache-busting query strings in index.html.
-window.MOVING_SALE_LAST_UPDATED = "2026-07-19T23:07:23-07:00";
+window.MOVING_SALE_LAST_UPDATED = "2026-07-20T22:59:24-07:00";
 window.MOVING_SALE_ITEMS = [
   {
     "images": [
@@ -545,7 +545,7 @@ window.MOVING_SALE_ITEMS = [
         "description": "Black vinyl tri-fold gymnastics/yoga exercise mat with carrying handles, foam padded, good condition with minor surface scuffs.",
         "price": 10,
         "salePrice": 3,
-        "sold": false
+        "sold": true
       }
     ]
   },
@@ -681,7 +681,7 @@ window.MOVING_SALE_ITEMS = [
         "name": "Stainless Steel Mixing Bowl",
         "description": "Large stainless steel mixing bowl, good condition.",
         "price": 5,
-        "sold": false
+        "sold": true
       },
       {
         "name": "Pink Colander",
