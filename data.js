@@ -5,7 +5,7 @@
 // "salePrice" displays as the current price.
 // Auto-bumped by .githooks/pre-commit on every commit that touches this
 // file, along with the ?v= cache-busting query strings in index.html.
-window.MOVING_SALE_LAST_UPDATED = "2026-07-20T22:59:24-07:00";
+window.MOVING_SALE_LAST_UPDATED = "2026-07-21T12:17:04-07:00";
 window.MOVING_SALE_ITEMS = [
   {
     "images": [
@@ -195,7 +195,7 @@ window.MOVING_SALE_ITEMS = [
         "price": 40,
         "salePrice": 35,
         "link": "https://www.amazon.com/dp/B0D6YMY5HG",
-        "sold": false
+        "sold": true
       }
     ]
   },
@@ -607,7 +607,7 @@ window.MOVING_SALE_ITEMS = [
         "description": "Stainless steel and glass electric kettle, functional, some mineral buildup visible from use.",
         "price": 25,
         "salePrice": 15,
-        "sold": false
+        "sold": true
       },
       {
         "name": "Chefman Glass Electric Kettle",
